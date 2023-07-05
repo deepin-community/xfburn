@@ -1,0 +1,1516 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Algimantas Margevičius <margevicius.algimantas@gmail.com>, 2012
+# mantas <mantaz@users.sourceforge.net>, 2006
+# Moo, 2015-2020
+msgid ""
+msgstr ""
+"Project-Id-Version: Xfce Apps\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-28 00:32+0100\n"
+"PO-Revision-Date: 2020-01-28 16:52+0000\n"
+"Last-Translator: Moo\n"
+"Language-Team: Lithuanian (http://www.transifex.com/xfce/xfce-apps/language/lt/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: lt\n"
+"Plural-Forms: nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);\n"
+
+#: ../xfburn/xfburn-global.h:28
+msgid "Capacity:"
+msgstr "Talpa:"
+
+#: ../xfburn/xfburn-global.h:29
+msgid "addr:"
+msgstr "addr:"
+
+#: ../xfburn/xfburn-global.h:30
+msgid "Time total:"
+msgstr "Bendras laikas:"
+
+#: ../xfburn/xfburn-global.h:32
+msgid "length"
+msgstr "trukmė"
+
+#: ../xfburn/xfburn-global.h:33 ../xfburn/xfburn-copy-cd-progress-dialog.c:93
+msgid "Flushing cache..."
+msgstr "Išvalomas podėlis..."
+
+#: ../xfburn/xfburn-global.h:34
+msgid "Please insert a recordable disc and hit enter"
+msgstr "Prašome įdėti įrašomą diską ir paspausti Enter"
+
+#: ../xfburn/xfburn-global.h:35
+msgid "Cannot determine disc status - hit enter to try again."
+msgstr "Nepavyko nustatyti disko būsenos - paspauskite enter ir bandykite dar kartą."
+
+#: ../xfburn/xfburn-global.h:36
+msgid "CD copying finished successfully."
+msgstr "CD kopijavimas sėkmingai baigtas."
+
+#: ../xfburn/xfburn-global.h:43
+msgid "Data composition"
+msgstr "Duomenų projektas"
+
+#: ../xfburn/xfburn-adding-progress.c:83
+msgid "Adding files to the composition"
+msgstr "Failai pridedami į projektą"
+
+#: ../xfburn/xfburn-adding-progress.c:96
+msgid "Cancel"
+msgstr "Atsisakyti"
+
+#: ../xfburn/xfburn-blank-dialog.c:70
+msgid "Quick Blank"
+msgstr "Greitas trynimas"
+
+#: ../xfburn/xfburn-blank-dialog.c:71
+msgid "Full Blank (slow)"
+msgstr "Pilnas trynimas (lėtas)"
+
+#: ../xfburn/xfburn-blank-dialog.c:72
+msgid "Quick Format"
+msgstr "Greitas formatavimas"
+
+#: ../xfburn/xfburn-blank-dialog.c:73
+msgid "Full Format"
+msgstr "Pilnas formatavimas"
+
+#: ../xfburn/xfburn-blank-dialog.c:74
+msgid "Quick Deformat"
+msgstr "Greitas deformavimas"
+
+#: ../xfburn/xfburn-blank-dialog.c:75
+msgid "Full Deformat (slow)"
+msgstr "Pilnas deformavimas (lėtas)"
+
+#: ../xfburn/xfburn-blank-dialog.c:119
+msgid "Eject the disc"
+msgstr "Išstumti diską"
+
+#: ../xfburn/xfburn-blank-dialog.c:120
+msgid "Default value for eject checkbox"
+msgstr "Numatytoji išstūmimo pažymimojo langelio reikšmė"
+
+#: ../xfburn/xfburn-blank-dialog.c:168
+msgid "Blank Disc"
+msgstr "Tuščias diskas"
+
+#: ../xfburn/xfburn-blank-dialog.c:182
+#: ../xfburn/xfburn-burn-data-composition-base-dialog.c:165
+#: ../xfburn/xfburn-burn-image-dialog.c:181
+#: ../xfburn/xfburn-copy-cd-dialog.c:107
+#: ../xfburn/xfburn-copy-dvd-dialog.c:104
+#: ../xfburn/xfburn-burn-audio-cd-composition-dialog.c:129
+msgid "Burning device"
+msgstr "Įrašymo įrenginys"
+
+#: ../xfburn/xfburn-blank-dialog.c:195 ../xfburn/xfburn-device-box.c:156
+msgid "Blank mode"
+msgstr "Trynimo veiksena"
+
+#: ../xfburn/xfburn-blank-dialog.c:203
+#: ../xfburn/xfburn-burn-data-composition-base-dialog.c:197
+#: ../xfburn/xfburn-burn-image-dialog.c:189
+#: ../xfburn/xfburn-copy-cd-dialog.c:115
+#: ../xfburn/xfburn-copy-dvd-dialog.c:112
+#: ../xfburn/xfburn-burn-audio-cd-composition-dialog.c:163
+msgid "Options"
+msgstr "Parametrai"
+
+#: ../xfburn/xfburn-blank-dialog.c:207
+#: ../xfburn/xfburn-burn-data-composition-base-dialog.c:201
+#: ../xfburn/xfburn-burn-image-dialog.c:193
+#: ../xfburn/xfburn-copy-cd-dialog.c:119
+#: ../xfburn/xfburn-copy-dvd-dialog.c:116
+#: ../xfburn/xfburn-burn-audio-cd-composition-dialog.c:167
+msgid "E_ject disk"
+msgstr "_Išstumti diską"
+
+#. action buttons
+#. align = gtk_alignment_new (0, 0, 0, 0);
+#. gtk_alignment_set_padding (GTK_ALIGNMENT (align), 0, 0, BORDER * 4, 0);
+#. gtk_widget_show (align);
+#. gtk_box_pack_start (GTK_BOX (vbox), align, FALSE, FALSE, 0);
+#. action buttons
+#: ../xfburn/xfburn-blank-dialog.c:213
+#: ../xfburn/xfburn-burn-data-composition-base-dialog.c:254
+#: ../xfburn/xfburn-burn-image-dialog.c:218
+#: ../xfburn/xfburn-copy-cd-dialog.c:165
+#: ../xfburn/xfburn-copy-dvd-dialog.c:162 ../xfburn/xfburn-utils.c:131
+#: ../xfburn/xfburn-burn-audio-cd-composition-dialog.c:188
+msgid "_Cancel"
+msgstr "_Atsisakyti"
+
+#: ../xfburn/xfburn-blank-dialog.c:217
+msgid "_Blank"
+msgstr "_Tuščias"
+
+#. blanking can only be performed on blank discs, format and deformat are
+#. allowed to be blank ones
+#: ../xfburn/xfburn-blank-dialog.c:329
+msgid "The inserted disc is already blank."
+msgstr "Įdėtas diskas jau ir taip tuščias."
+
+#. these ones we can blank
+#: ../xfburn/xfburn-blank-dialog.c:335
+msgid "Ready"
+msgstr "Pasiruošęs"
+
+#: ../xfburn/xfburn-blank-dialog.c:338
+msgid "No disc detected in the drive."
+msgstr "Diskasukyje nėra disko."
+
+#: ../xfburn/xfburn-blank-dialog.c:347
+msgid "Disc is not erasable."
+msgstr "Diskas nėra trinamas."
+
+#: ../xfburn/xfburn-blank-dialog.c:387
+msgid "Blanking disc..."
+msgstr "Diskas trinamas..."
+
+#: ../xfburn/xfburn-blank-dialog.c:414
+#: ../xfburn/xfburn-burn-data-composition-base-dialog.c:486
+#: ../xfburn/xfburn-perform-burn.c:489
+#, c-format
+msgid "Done"
+msgstr "Atlikta"
+
+#: ../xfburn/xfburn-blank-dialog.c:417 ../xfburn/xfburn-perform-burn.c:496
+#: ../xfburn/xfburn-progress-dialog.c:637
+msgid "Failure"
+msgstr "Nesėkmė"
+
+#: ../xfburn/xfburn-blank-dialog.c:434
+#: ../xfburn/xfburn-burn-data-composition-base-dialog.c:592
+#: ../xfburn/xfburn-burn-image-dialog.c:392
+#: ../xfburn/xfburn-burn-image-dialog.c:570
+#: ../xfburn/xfburn-burn-audio-cd-composition-dialog.c:365
+msgid "Unable to grab the drive."
+msgstr "Nepavyko pasinaudoti diskasukiu."
+
+#: ../xfburn/xfburn-burn-data-composition-base-dialog.c:128
+msgid "Image"
+msgstr "Atvaizdis"
+
+#: ../xfburn/xfburn-burn-data-composition-base-dialog.c:130
+msgid "Show volume name"
+msgstr "Rodyti tomo pavadinimą"
+
+#: ../xfburn/xfburn-burn-data-composition-base-dialog.c:130
+msgid "Show a text entry for the name of the volume"
+msgstr "Rodyti tekstinį įrašą tomo pavadinimui"
+
+#: ../xfburn/xfburn-burn-data-composition-base-dialog.c:151
+#: ../xfburn/xfburn-burn-audio-cd-composition-dialog.c:117
+msgid "Burn Composition"
+msgstr "Įrašymo projektas"
+
+#: ../xfburn/xfburn-burn-data-composition-base-dialog.c:176
+msgid "Composition name"
+msgstr "Projekto pavadinimas"
+
+#: ../xfburn/xfburn-burn-data-composition-base-dialog.c:181
+msgid "<small>Would you like to change the default composition name?</small>"
+msgstr "<small>Ar norėtumėte pakeisti numatytąjį projekto vardą?</small>"
+
+#: ../xfburn/xfburn-burn-data-composition-base-dialog.c:206
+#: ../xfburn/xfburn-burn-image-dialog.c:198
+#: ../xfburn/xfburn-copy-cd-dialog.c:124
+#: ../xfburn/xfburn-copy-dvd-dialog.c:121
+#: ../xfburn/xfburn-burn-audio-cd-composition-dialog.c:172
+msgid "_Dummy write"
+msgstr "_Netikras įrašymas"
+
+#: ../xfburn/xfburn-burn-data-composition-base-dialog.c:210
+#: ../xfburn/xfburn-burn-image-dialog.c:202
+#: ../xfburn/xfburn-burn-audio-cd-composition-dialog.c:176
+msgid "Burn_Free"
+msgstr "Įrašyti _laisvai"
+
+#: ../xfburn/xfburn-burn-data-composition-base-dialog.c:215
+#: ../xfburn/xfburn-burn-image-dialog.c:207
+msgid "Stream _Recording"
+msgstr "Srauto į_rašymas"
+
+#. create ISO ?
+#: ../xfburn/xfburn-burn-data-composition-base-dialog.c:221
+#: ../xfburn/xfburn-copy-cd-dialog.c:133
+#: ../xfburn/xfburn-copy-dvd-dialog.c:130
+msgid "Only create _ISO"
+msgstr "Tik sukurti ISO _atvaizdį"
+
+#: ../xfburn/xfburn-burn-data-composition-base-dialog.c:258
+#: ../xfburn/xfburn-burn-audio-cd-composition-dialog.c:192
+msgid "_Burn Composition"
+msgstr "_Įrašyti projektą"
+
+#: ../xfburn/xfburn-burn-data-composition-base-dialog.c:444
+#, c-format
+msgid "Could not create destination ISO file: %s"
+msgstr "Nepavyko sukurti paskirties ISO failo: %s"
+
+#: ../xfburn/xfburn-burn-data-composition-base-dialog.c:451
+msgid "Writing ISO..."
+msgstr "Įrašomas ISO..."
+
+#: ../xfburn/xfburn-burn-data-composition-base-dialog.c:468
+#, c-format
+msgid "An error occured while writing ISO: %s"
+msgstr "Rašant ISO įvyko klaida: %s"
+
+#: ../xfburn/xfburn-burn-data-composition-base-dialog.c:524
+#: ../xfburn/xfburn-burn-data-composition-base-dialog.c:530
+msgid "An error occurred in the burn backend."
+msgstr "Įrašymo posistemėje įvyko klaida."
+
+#: ../xfburn/xfburn-burn-data-composition-base-dialog.c:553
+#: ../xfburn/xfburn-burn-audio-cd-composition-dialog.c:296
+msgid "The write mode is not supported currently."
+msgstr "Įrašymo veiksena nepalaikoma."
+
+#. could not create source
+#: ../xfburn/xfburn-burn-data-composition-base-dialog.c:636
+msgid "Could not create ISO source structure."
+msgstr "Nepavyko sukurti ISO šaltinio struktūros."
+
+#: ../xfburn/xfburn-burn-image-dialog.c:137
+msgid "Burn image"
+msgstr "Įrašyti atvaizdį"
+
+#. file
+#: ../xfburn/xfburn-burn-image-dialog.c:145
+#: ../xfburn/xfburn-burn-image-dialog.c:166
+msgid "Image to burn"
+msgstr "Atvaizdis įrašymui"
+
+#: ../xfburn/xfburn-burn-image-dialog.c:149
+msgid "All files"
+msgstr "Visi failai"
+
+#: ../xfburn/xfburn-burn-image-dialog.c:153
+msgid "ISO images"
+msgstr "ISO failai"
+
+#: ../xfburn/xfburn-burn-image-dialog.c:212
+msgid "_Quit after success"
+msgstr "_Išeiti po sėkmingo darbo"
+
+#: ../xfburn/xfburn-burn-image-dialog.c:222
+msgid "_Burn image"
+msgstr "Į_rašyti atvaizdį"
+
+#: ../xfburn/xfburn-burn-image-dialog.c:275
+msgid "Burn mode is not currently implemented."
+msgstr "Šiuo metu įrašymo veiksena dar neįdiegta."
+
+#: ../xfburn/xfburn-burn-image-dialog.c:326
+#: ../xfburn/xfburn-burn-image-dialog.c:355
+msgid "An error occurred in the burn backend"
+msgstr "Įrašymo posistemėje įvyko klaida"
+
+#: ../xfburn/xfburn-burn-image-dialog.c:339
+msgid "Unable to determine image size."
+msgstr "Nepavyko nustatyti atvaizdžio dydžio."
+
+#: ../xfburn/xfburn-burn-image-dialog.c:346
+msgid "Cannot open image."
+msgstr "Nepavyko atverti atvaizdžio."
+
+#: ../xfburn/xfburn-burn-image-dialog.c:383
+msgid "Burning image..."
+msgstr "Atvaizdis įrašomas..."
+
+#: ../xfburn/xfburn-burn-image-dialog.c:456
+msgid ""
+"<span weight=\"bold\" foreground=\"darkred\" stretch=\"semiexpanded\">Please"
+" select an image to burn</span>"
+msgstr "<span weight=\"bold\" foreground=\"darkred\" stretch=\"semiexpanded\">Pasirinkite atvaizdį įrašymui</span>"
+
+#: ../xfburn/xfburn-burn-image-dialog.c:496
+msgid ""
+"Cannot append data to multisession disc in this write mode (use TAO instead)"
+msgstr "Šioje rašymo veiksenoje negalima pridėti duomenis į daugkartinio rašymo diską (vietoj to, naudokite TAO)"
+
+#: ../xfburn/xfburn-burn-image-dialog.c:500
+msgid "Closed disc with data detected. Need blank or appendable disc"
+msgstr "Aptiktas diskas su duomenimis. Reikia tuščio, įrašomo disko"
+
+#: ../xfburn/xfburn-burn-image-dialog.c:502
+msgid "No disc detected in drive"
+msgstr "Diskasukyje nėra disko"
+
+#: ../xfburn/xfburn-burn-image-dialog.c:504
+msgid "Cannot recognize state of drive and disc"
+msgstr "Diskasukio ir disko būsena neatpažinta"
+
+#: ../xfburn/xfburn-burn-image-dialog.c:516
+msgid "The selected image does not fit on the inserted disc"
+msgstr "Pasirinktas atvaizdis netelpa į įdėtą diską"
+
+#: ../xfburn/xfburn-burn-image-dialog.c:520
+msgid "Failed to get image size"
+msgstr "Nepavyko gauti atvaizdžio dydžio"
+
+#: ../xfburn/xfburn-burn-image-dialog.c:549
+msgid ""
+"Make sure you selected a valid file and you have the proper permissions to "
+"access it."
+msgstr "Įsitikinkite jog failas tinkamas ir jūs turite leidimą jį pasiekti."
+
+#: ../xfburn/xfburn-compositions-notebook.c:147
+msgid "Audio composition"
+msgstr "Garso projektas"
+
+#: ../xfburn/xfburn-compositions-notebook.c:208
+msgid "Welcome"
+msgstr "Sveiki atvykę"
+
+#: ../xfburn/xfburn-copy-cd-dialog.c:88
+#: ../xfburn/xfburn-copy-cd-progress-dialog.c:156
+msgid "Copy data CD"
+msgstr "Kopijuoti duomenų CD"
+
+#: ../xfburn/xfburn-copy-cd-dialog.c:99
+msgid "CD Reader device"
+msgstr "CD skaitymo įrenginys"
+
+#: ../xfburn/xfburn-copy-cd-dialog.c:128
+#: ../xfburn/xfburn-copy-dvd-dialog.c:125
+msgid "On the _fly"
+msgstr "_Nestabdomai"
+
+#: ../xfburn/xfburn-copy-cd-dialog.c:169
+msgid "_Copy CD"
+msgstr "_Kopijuoti CD"
+
+#: ../xfburn/xfburn-copy-cd-progress-dialog.c:105
+msgid "Please insert a recordable disc."
+msgstr "Įdėkite įrašomą diską."
+
+#: ../xfburn/xfburn-copy-cd-progress-dialog.c:127
+msgid "Writing CD..."
+msgstr "Įrašomas CD..."
+
+#: ../xfburn/xfburn-copy-cd-progress-dialog.c:140
+#: ../xfburn/xfburn-create-iso-progress-dialog.c:102
+msgid "Reading CD..."
+msgstr "Skaitomas CD..."
+
+#: ../xfburn/xfburn-copy-dvd-dialog.c:85
+msgid "Copy data DVD"
+msgstr "Kopijuoti duomenų DVD"
+
+#: ../xfburn/xfburn-copy-dvd-dialog.c:96
+msgid "DVD Reader device"
+msgstr "DVD skaitymo įrenginys"
+
+#: ../xfburn/xfburn-copy-dvd-dialog.c:166
+msgid "_Copy DVD"
+msgstr "_Kopijuoti DVD"
+
+#: ../xfburn/xfburn-create-iso-progress-dialog.c:117
+msgid "Create ISO from CD"
+msgstr "Sukurti ISO iš CD"
+
+#: ../xfburn/xfburn-data-composition.c:333
+#: ../xfburn/xfburn-data-composition.c:966
+#: ../xfburn/xfburn-audio-composition.c:216
+#: ../xfburn/xfburn-audio-composition.c:358
+#: ../xfburn/xfburn-audio-composition.c:975
+msgid "Add"
+msgstr "Pridėti"
+
+#: ../xfburn/xfburn-data-composition.c:333
+#: ../xfburn/xfburn-audio-composition.c:216
+#: ../xfburn/xfburn-audio-composition.c:358
+msgid "Add the selected file(s) to the composition"
+msgstr "Pridėti pasirinktus failus į projektą"
+
+#: ../xfburn/xfburn-data-composition.c:335 ../xfburn-popup-menus.ui.h:1
+msgid "Create directory"
+msgstr "Sukurti katalogą"
+
+#: ../xfburn/xfburn-data-composition.c:335
+msgid "Add a new directory to the composition"
+msgstr "Pridėti į projektą naują katalogą"
+
+#: ../xfburn/xfburn-data-composition.c:340
+#: ../xfburn/xfburn-audio-composition.c:218
+#: ../xfburn/xfburn-audio-composition.c:363 ../xfburn-popup-menus.ui.h:3
+msgid "Remove"
+msgstr "Pašalinti"
+
+#: ../xfburn/xfburn-data-composition.c:340
+#: ../xfburn/xfburn-audio-composition.c:218
+#: ../xfburn/xfburn-audio-composition.c:363
+msgid "Remove the selected file(s) from the composition"
+msgstr "Pašalinti pasirinktus failus iš projekto"
+
+#: ../xfburn/xfburn-data-composition.c:342
+#: ../xfburn/xfburn-audio-composition.c:220
+#: ../xfburn/xfburn-audio-composition.c:365
+msgid "Clear"
+msgstr "Išvalyti"
+
+#: ../xfburn/xfburn-data-composition.c:342
+#: ../xfburn/xfburn-audio-composition.c:220
+#: ../xfburn/xfburn-audio-composition.c:365
+msgid "Clear the content of the composition"
+msgstr "Išvalyti projektą"
+
+#: ../xfburn/xfburn-data-composition.c:353
+msgid "Volume name :"
+msgstr "Tomo vardas:"
+
+#: ../xfburn/xfburn-data-composition.c:387
+msgid "Contents"
+msgstr "Turinys"
+
+#: ../xfburn/xfburn-data-composition.c:402
+#: ../xfburn/xfburn-directory-browser.c:113
+msgid "Size"
+msgstr "Dydis"
+
+#: ../xfburn/xfburn-data-composition.c:405
+msgid "Local Path"
+msgstr "Vietinis kelias"
+
+#: ../xfburn/xfburn-data-composition.c:682
+msgid "You must give a name to the file."
+msgstr "Turite pavadinti failą."
+
+#: ../xfburn/xfburn-data-composition.c:691
+#: ../xfburn/xfburn-data-composition.c:1208
+#: ../xfburn/xfburn-audio-composition.c:1175
+msgid "A file with the same name is already present in the composition."
+msgstr "Failas su tokiu pavadinimu projekte jau yra."
+
+#: ../xfburn/xfburn-data-composition.c:798
+#: ../xfburn/xfburn-data-composition.c:799
+#: ../xfburn/xfburn-data-composition.c:801
+msgid "New directory"
+msgstr "Naujas katalogas"
+
+#: ../xfburn/xfburn-data-composition.c:945
+#: ../xfburn/xfburn-audio-composition.c:972
+msgid "File(s) to add to composition"
+msgstr "Failai kurie bus pridėti į seansą"
+
+#. Note to translators: first %s is the date in "i18n" format (year-month-
+#. day), %d is a running number of compositions
+#: ../xfburn/xfburn-data-composition.c:1051
+#, c-format
+msgid "Data %s~%d"
+msgstr "Duomenys %s~%d"
+
+#: ../xfburn/xfburn-data-composition.c:1287
+#, c-format
+msgid ""
+"%s cannot be added to the composition, because it exceeds the maximum "
+"allowed file size for iso9660."
+msgstr "%s negali būti pridėtas į projektą, nes jis viršija didžiausią galimą iso9660 formato dydį."
+
+#: ../xfburn/xfburn-data-composition.c:1294
+#, c-format
+msgid ""
+"%s is larger than what iso9660 level 2 allows. This can be a problem for old"
+" systems or software."
+msgstr "%s yra didesnis nei leidžia iso9660 lygis 2. Tai gali sukelti problemų senose sistemose ar programose."
+
+#: ../xfburn/xfburn-data-composition.c:1378
+#: ../xfburn/xfburn-audio-composition.c:1351
+msgid "Adding home directory"
+msgstr "Pridedamas namų katalogas"
+
+#: ../xfburn/xfburn-data-composition.c:1379
+#: ../xfburn/xfburn-audio-composition.c:1352
+msgid ""
+"You are about to add your home directory to the composition. This is likely to take a very long time, and also to be too big to fit on one disc.\n"
+"\n"
+"Are you sure you want to proceed?"
+msgstr "Jūs ketinate pridėti į projektą savo namų katalogą. Tai užtruks labai ilgai, taipogi gali netilpti į vieną diską.\n\nAr tikrai norite tęsti?"
+
+#: ../xfburn/xfburn-data-composition.c:1547
+#, c-format
+msgid ""
+"A file named \"%s\" already exists in this directory, the file hasn't been "
+"added."
+msgstr "Failas, pavadinimu „%s“ šiame kataloge jau yra, failas nepridėtas."
+
+#: ../xfburn/xfburn-data-composition.c:1946
+#, c-format
+msgid "%s: null pointer"
+msgstr "%s: nulinė rodyklė"
+
+#: ../xfburn/xfburn-data-composition.c:1948
+#, c-format
+msgid "%s: out of memory"
+msgstr "%s: trūksta atminties"
+
+#: ../xfburn/xfburn-data-composition.c:1950
+#, c-format
+msgid "%s: node name not unique"
+msgstr "%s: toks pavadinimas jau yra"
+
+#: ../xfburn/xfburn-data-composition.c:1952
+#, c-format
+msgid "%s: %s (code %X)"
+msgstr "%s: %s (kodas %X)"
+
+#. The first string is the renamed name, the second one the original name
+#: ../xfburn/xfburn-data-composition.c:1972
+#, c-format
+msgid "Duplicate filename '%s' for '%s'"
+msgstr "Dubliuoti failo vardą „%s“ skirtą „%s“"
+
+#: ../xfburn/xfburn-data-composition.c:2037
+msgid "Error(s) occured while adding files"
+msgstr "Pridedant failus įvyko klaida"
+
+#: ../xfburn/xfburn-data-composition.c:2041
+msgid "OK"
+msgstr "Gerai"
+
+#: ../xfburn/xfburn-device-box.c:140 ../xfburn/xfburn-device-box.c:141
+msgid "Show writers only"
+msgstr "Rodyti tik įrašymo įrenginius"
+
+#: ../xfburn/xfburn-device-box.c:144
+msgid "Show speed selection"
+msgstr "Rodyti greičio pasirinkimą"
+
+#: ../xfburn/xfburn-device-box.c:145
+msgid "Show speed selection combo"
+msgstr "Rodyti greičio pasirinkimą glaustai"
+
+#: ../xfburn/xfburn-device-box.c:148
+msgid "Show mode selection"
+msgstr "Rodyti veiksenos pasirinkimą"
+
+#: ../xfburn/xfburn-device-box.c:149
+msgid "Show mode selection combo"
+msgstr "Rodyti veiksenos pasirinkimą glaustai"
+
+#: ../xfburn/xfburn-device-box.c:152
+msgid "Is it a valid combination"
+msgstr "Ar tai tinkama kombinacija"
+
+#: ../xfburn/xfburn-device-box.c:153
+msgid "Is the combination of hardware and disc valid to burn the composition?"
+msgstr "Ar disko ir aparatinės įrangos kombinacija tinkama projekto įrašymui?"
+
+#: ../xfburn/xfburn-device-box.c:157
+msgid "The blank mode shows different disc status messages than regular mode"
+msgstr "Trynimo veiksena rodo kitokius būsenos pranešimus nei įprastas veiksena"
+
+#: ../xfburn/xfburn-device-box.c:206
+msgid "_Speed:"
+msgstr "_Greitis:"
+
+#: ../xfburn/xfburn-device-box.c:229
+msgid "Write _mode:"
+msgstr "Įrašymo _veiksena:"
+
+#: ../xfburn/xfburn-device-box.c:340
+msgid "Empty speed list"
+msgstr "Tuščio greičių sąrašas"
+
+#: ../xfburn/xfburn-device-box.c:349
+msgid ""
+"<b>Unable to retrieve the speed list for the drive.</b>\n"
+"\n"
+"This is a known bug for drives. If you're interested in fixing it, please have a look at the libburn library.\n"
+"\n"
+"Burning should still work, but if there are problems anyways, please let us know.\n"
+"\n"
+"<i>Thank you!</i>"
+msgstr "<b>Nepavyko gauti įrenginio greičių sąrašo.</b>\n\nTai žinoma klaida, kuri įvyksta su kai kuriais įrenginiais. Praneškite apie ją į <i>xfburn@xfce.org</i> taipogi prisekite konsolės išvestį, tai padidins problemos išsprendimo galimybę.\n\nĮrašymas vistiek turėtų veikti, bet jei kyla bėdų, praneškite mums.\n\n<i>Ačiū!</i>"
+
+#: ../xfburn/xfburn-device-box.c:360
+msgid "Continue to _show this notice"
+msgstr "Ir toliau _rodyti šį pranešimą"
+
+#: ../xfburn/xfburn-device-box.c:407
+msgid "default"
+msgstr "numatytas"
+
+#: ../xfburn/xfburn-device-box.c:438
+msgid "Max"
+msgstr "Maksimalus"
+
+#: ../xfburn/xfburn-device-box.c:473
+msgid "A full, but erasable disc is in the drive"
+msgstr "Diskasukyje yra pilnas, tačiau ištrinamas diskas"
+
+#: ../xfburn/xfburn-device-box.c:474
+msgid ""
+"Do you want to blank the disc, so that it can be used for the upcoming burn "
+"process?"
+msgstr "Ar norite ištrinti diską, kad jis galėtų būti naudojamas būsimam įrašymo procesui?"
+
+#: ../xfburn/xfburn-device-box.c:545
+msgid "Drive can't burn on the inserted disc"
+msgstr "Įrenginys negali rašyti į įdėtą diską"
+
+#: ../xfburn/xfburn-device-box.c:554 ../xfburn/xfburn-device-box.c:600
+msgid "Drive is empty"
+msgstr "Diskasukis tuščias."
+
+#: ../xfburn/xfburn-device-box.c:557
+msgid "Sorry, multisession is not yet supported"
+msgstr "Deja, daugkartiniai rašymai kol kas nepalaikomi"
+
+#: ../xfburn/xfburn-device-box.c:560
+msgid "Inserted disc is full"
+msgstr "Įdėtas diskas yra pilnas"
+
+#: ../xfburn/xfburn-device-box.c:563 ../xfburn/xfburn-device-box.c:606
+msgid "Inserted disc is unsuitable"
+msgstr "Įdėtas diskas yra netinkamas"
+
+#: ../xfburn/xfburn-device-box.c:566 ../xfburn/xfburn-device-box.c:609
+msgid "Cannot access drive (it might be in use)"
+msgstr "Neįmanoma pasiekti disko (gali būti jog jis naudojamas)"
+
+#: ../xfburn/xfburn-device-box.c:571 ../xfburn/xfburn-device-box.c:612
+msgid "Error determining disc"
+msgstr "Klaida nustatant diską"
+
+#: ../xfburn/xfburn-device-box.c:592
+msgid "Write-once disc, no blanking possible"
+msgstr "Diskas įrašymui vieną kartą, trinti neįmanoma"
+
+#: ../xfburn/xfburn-device-box.c:595
+msgid "DVD+RW does not need blanking"
+msgstr "DVD+RW nereikia ištrinti"
+
+#: ../xfburn/xfburn-device-box.c:603
+msgid "Inserted disc is already blank"
+msgstr "Įdėtas diskas jau tuščias"
+
+#: ../xfburn/xfburn-device-box.c:639
+msgid "Auto"
+msgstr "Auto"
+
+#: ../xfburn/xfburn-device-list.c:204 ../xfburn/xfburn-device-list.c:205
+msgid "Number of burners in the system"
+msgstr "Sistemos įrašymo įrenginių skaičius"
+
+#: ../xfburn/xfburn-device-list.c:207
+msgid "Number of drives in the system"
+msgstr "Sistemos įrenginių skaičius"
+
+#: ../xfburn/xfburn-device-list.c:208
+msgid "Number of drives in the system (readers and writers)"
+msgstr "Sistemos įrenginių skaičius (skaitymo ir rašymo)"
+
+#: ../xfburn/xfburn-device-list.c:210 ../xfburn/xfburn-device-list.c:211
+msgid "List of devices"
+msgstr "Įrenginių sąrašas"
+
+#: ../xfburn/xfburn-device-list.c:213 ../xfburn/xfburn-device-list.c:214
+msgid "Currently selected device"
+msgstr "Dabar pasirinktas įrenginys"
+
+#. globals
+#: ../xfburn/xfburn-directory-browser.c:52
+msgid "Folder"
+msgstr "Aplankas"
+
+#: ../xfburn/xfburn-directory-browser.c:100
+msgid "File"
+msgstr "Failas"
+
+#: ../xfburn/xfburn-directory-browser.c:115
+msgid "Type"
+msgstr "Tipas"
+
+#: ../xfburn/xfburn-fs-browser.c:96 ../xfburn/xfburn-fs-browser.c:305
+msgid "Filesystem"
+msgstr "Failų sistema"
+
+#. load the user's home dir
+#: ../xfburn/xfburn-fs-browser.c:284
+#, c-format
+msgid "%s's home"
+msgstr "%s namai"
+
+#: ../xfburn/xfburn-udev-manager.c:495
+#, c-format
+msgid "Failed to unmount '%s'. Drive cannot be used for burning."
+msgstr "Nepavyko atjungti \"%s\". Diskasukis negali būti naudojamas rašymui."
+
+#. || G_OPTION_FLAG_FILENAME
+#: ../xfburn/xfburn-main.c:74
+msgid "Open the burn image dialog, optionally followed by the image filename"
+msgstr "Atverti atvaizdžio rašymo dialogą, po kurio pasirinktinai seks atvaizdžio failo pavadinimas"
+
+#: ../xfburn/xfburn-main.c:76
+msgid "Open the blank disc dialog"
+msgstr "Atverti tuščio disko dialogą"
+
+#: ../xfburn/xfburn-main.c:78
+msgid ""
+"Start a data composition, optionally followed by files/directories to be "
+"added to the composition"
+msgstr "Pradėti duomenų projektą, po kurio pasirinktinai seks į projektą pridedami failai/katalogai"
+
+#: ../xfburn/xfburn-main.c:80
+msgid ""
+"Start an audio composition, optionally followed by files/directories to be "
+"added to the composition"
+msgstr "Pradėti garso projektą, po kurio pasirinktinai seks į projektą pridedami failai/katalogai"
+
+#: ../xfburn/xfburn-main.c:82
+msgid ""
+"Select the transcoder, run with --transcoder=list to see the available ones"
+msgstr "Pasirinkti perkoduotoją, paleiskite su --transcoder=list norėdami matyti prieinamų perkoduotojų sąrašą"
+
+#: ../xfburn/xfburn-main.c:84
+msgid ""
+"Start the file browser in the specified directory, or the current directory "
+"if none is specified (the default is to start in your home directory)"
+msgstr "Paleisti failų naršyklę nurodytame kataloge arba, jeigu joks nėra nurodytas, esamame kataloge (pagal numatymą, paleisti failų naršyklę jūsų namų kataloge)"
+
+#: ../xfburn/xfburn-main.c:86
+msgid "Display program version and exit"
+msgstr "Rodyti programos versiją ir išeiti"
+
+#: ../xfburn/xfburn-main.c:88
+msgid ""
+"Show main program even when other action is specified on the command line."
+msgstr "Rodyti pagrindinę programą netgi tuomet, kai komandų eilutėje yra nurodytas kitas veiksmas."
+
+#: ../xfburn/xfburn-main.c:202 ../xfburn.desktop.in.h:1
+msgid "Xfburn"
+msgstr "Xfburn"
+
+#: ../xfburn/xfburn-main.c:211
+#, c-format
+msgid ""
+"%s: %s\n"
+"Try %s --help to see a full list of available command line options.\n"
+msgstr "%s: %s\nNorėdami pamatyti komandų eilutės parametrų sąrašą, paleiskite „%s --help“.\n"
+
+#: ../xfburn/xfburn-main.c:220
+msgid "Unable to initialize the burning backend."
+msgstr "Nepavyko inicijuoti įrašymo posistemės."
+
+#: ../xfburn/xfburn-main.c:294
+msgid "No burners are currently available"
+msgstr "Nėra prieinamų įrašymo įrenginių"
+
+#: ../xfburn/xfburn-main.c:296
+msgid ""
+"Possibly the disc(s) are in use, and cannot get accessed.\n"
+"\n"
+"Please unmount and restart the application.\n"
+"\n"
+"If no disc is in the drive, check that you have read and write access to the drive with the current user."
+msgstr "Gali būti, jog diskas naudojamas ir negali būti pasiektas.\n\nAtjunkite ir paleiskite iš naujo.\n\nJei diskasukyje nėra disko, įsitikinkite jog šis naudotojas turi skaitymo ir rašymo teises."
+
+#: ../xfburn/xfburn-main.c:330
+#, c-format
+msgid ""
+"Failed to initialize %s transcoder: %s\n"
+"\t(falling back to basic implementation)"
+msgstr "Nepavyko inicijuoti %s perkoduotojo: %s\n\t(grįžtama prie pagrindinio funkcionalumo)"
+
+#: ../xfburn/xfburn-main.c:373
+#, c-format
+msgid "Image file '%s' does not exist."
+msgstr "Atvaizdžio failas „%s“ neegzistuoja."
+
+#: ../xfburn/xfburn-main-window.c:310
+msgid "New data composition"
+msgstr "Naujas duomenų projektas"
+
+#: ../xfburn/xfburn-main-window.c:313
+msgid "New audio composition"
+msgstr "Naujas garso projektas"
+
+#: ../xfburn/xfburn-main-window.c:318 ../xfburn.ui.h:9
+msgid "Blank CD-RW"
+msgstr "Trinti CD-RW"
+
+#: ../xfburn/xfburn-main-window.c:321 ../xfburn.ui.h:10
+msgid "Burn Image"
+msgstr "Įrašyti atvaizdį"
+
+#: ../xfburn/xfburn-main-window.c:326 ../xfburn.ui.h:12
+msgid "Refresh"
+msgstr "Įkelti iš naujo"
+
+#: ../xfburn/xfburn-main-window.c:326
+msgid "Refresh file list"
+msgstr "Atnaujinti failų sąrašą"
+
+#: ../xfburn/xfburn-main-window.c:573
+msgid "Another cd burning GUI"
+msgstr "Dar viena CD įrašymo sąsaja"
+
+#: ../xfburn/xfburn-notebook-tab.c:81
+msgid "Label"
+msgstr "Etiketė"
+
+#: ../xfburn/xfburn-notebook-tab.c:81
+msgid "The text of the label"
+msgstr "Etiketės tekstas"
+
+#: ../xfburn/xfburn-notebook-tab.c:84
+msgid "Show close button"
+msgstr "Rodyti išjungimo mygtuką"
+
+#: ../xfburn/xfburn-notebook-tab.c:84
+msgid "Determine whether the close button is visible"
+msgstr "Nuspręskite ar uždarymo mygtukas bus matomas"
+
+#: ../xfburn/xfburn-perform-burn.c:103 ../xfburn/xfburn-perform-burn.c:452
+msgid "Formatting..."
+msgstr "Formatuojama..."
+
+#: ../xfburn/xfburn-perform-burn.c:270
+msgid ""
+"Cannot append data to multisession disc in this write mode (use TAO "
+"instead)."
+msgstr "Šioje rašymo veiksenoje negalima pridėti duomenis į daugkartinio rašymo diską (vietoj to, naudokite TAO)."
+
+#: ../xfburn/xfburn-perform-burn.c:274
+msgid "Closed disc with data detected, a blank or appendable disc is needed."
+msgstr "Aptiktas uždarytas diskas, reikia tuščio, įrašomo disko."
+
+#: ../xfburn/xfburn-perform-burn.c:276
+msgid "No disc detected in drive."
+msgstr "Įrenginyje nėra disko."
+
+#: ../xfburn/xfburn-perform-burn.c:279
+msgid "Cannot recognize the state of the drive and disc."
+msgstr "Neįmanoma atpažinti įrenginio ir disko būsenos."
+
+#: ../xfburn/xfburn-perform-burn.c:286
+msgid "Formatting failed."
+msgstr "Suformatuoti nepavyko."
+
+#: ../xfburn/xfburn-perform-burn.c:304
+msgid "There is not enough space available on the inserted disc."
+msgstr "Įdėtame diske neužtenka vietos."
+
+#: ../xfburn/xfburn-perform-burn.c:349
+#, c-format
+msgid "Burning track %2d/%d..."
+msgstr "Įrašomas takelis %2d/%d..."
+
+#: ../xfburn/xfburn-perform-burn.c:353 ../xfburn/xfburn-perform-burn.c:417
+msgid "Burning composition..."
+msgstr "Įrašomas projektas..."
+
+#: ../xfburn/xfburn-perform-burn.c:386
+msgid "standby"
+msgstr "laukiama"
+
+#: ../xfburn/xfburn-perform-burn.c:394
+msgid "ending"
+msgstr "baigiama"
+
+#: ../xfburn/xfburn-perform-burn.c:397
+msgid "failing"
+msgstr "nepavyksta"
+
+#: ../xfburn/xfburn-perform-burn.c:400
+msgid "unused"
+msgstr "nenaudojama"
+
+#: ../xfburn/xfburn-perform-burn.c:403
+msgid "abandoned"
+msgstr "nutraukta"
+
+#: ../xfburn/xfburn-perform-burn.c:406
+msgid "ended"
+msgstr "baigta"
+
+#: ../xfburn/xfburn-perform-burn.c:409
+msgid "aborted"
+msgstr "nutraukta"
+
+#: ../xfburn/xfburn-perform-burn.c:412
+msgid "no info"
+msgstr "nėra informacijos"
+
+#: ../xfburn/xfburn-perform-burn.c:422
+msgid "Writing Lead-In..."
+msgstr "Įrašoma Lead-In..."
+
+#: ../xfburn/xfburn-perform-burn.c:428
+msgid "Writing Lead-Out..."
+msgstr "Įrašoma Lead-Out..."
+
+#: ../xfburn/xfburn-perform-burn.c:434
+msgid "Writing pregap..."
+msgstr "Įrašoma pregap..."
+
+#: ../xfburn/xfburn-perform-burn.c:440
+msgid "Closing track..."
+msgstr "Užveriamas takelis..."
+
+#: ../xfburn/xfburn-perform-burn.c:446
+msgid "Closing session..."
+msgstr "Užveriamas seansas..."
+
+#: ../xfburn/xfburn-perform-burn.c:465
+msgid "see console"
+msgstr "peržiūrėkite konsolę"
+
+#: ../xfburn/xfburn-perform-burn.c:493
+msgid "User Aborted"
+msgstr "Nutraukė naudotojas"
+
+#: ../xfburn/xfburn-preferences-dialog.c:117
+msgid "Preferences"
+msgstr "Nuostatos"
+
+#: ../xfburn/xfburn-preferences-dialog.c:118
+msgid "Tune how Xfburn behaves"
+msgstr "Keisti Xfburn elgseną"
+
+#: ../xfburn/xfburn-preferences-dialog.c:163
+#: ../xfburn/xfburn-preferences-dialog.c:167
+msgid "Temporary directory"
+msgstr "Laikinasis katalogas"
+
+#: ../xfburn/xfburn-preferences-dialog.c:171
+msgid "_Clean temporary directory on exit"
+msgstr "_Užveriant, išvalyti laikinąjį katalogą"
+
+#: ../xfburn/xfburn-preferences-dialog.c:178
+msgid "File browser"
+msgstr "Failų naršyklė"
+
+#: ../xfburn/xfburn-preferences-dialog.c:182
+msgid "Show _hidden files"
+msgstr "Rodyti _paslėptus failus"
+
+#: ../xfburn/xfburn-preferences-dialog.c:187
+msgid "Show human_readable filesizes"
+msgstr "Rodyti žmogui suprantamus failų _dydžius"
+
+#: ../xfburn/xfburn-preferences-dialog.c:197
+#: ../xfburn/xfburn-preferences-dialog.c:208
+msgid "General"
+msgstr "Bendra"
+
+#: ../xfburn/xfburn-preferences-dialog.c:212
+#: ../xfburn/xfburn-preferences-dialog.c:295
+msgid "Devices"
+msgstr "Įrenginiai"
+
+#: ../xfburn/xfburn-preferences-dialog.c:221
+msgid "Detected devices"
+msgstr "Aptikti įrenginiai"
+
+#: ../xfburn/xfburn-preferences-dialog.c:243
+msgid "Name"
+msgstr "Pavadinimas"
+
+#: ../xfburn/xfburn-preferences-dialog.c:256
+msgid "Revision"
+msgstr "Revizija"
+
+#: ../xfburn/xfburn-preferences-dialog.c:258
+msgid "Node"
+msgstr "Mazgas"
+
+#: ../xfburn/xfburn-preferences-dialog.c:260
+msgid "Write CD-R"
+msgstr "Įrašyti CD-R"
+
+#: ../xfburn/xfburn-preferences-dialog.c:262
+msgid "Write CD-RW"
+msgstr "Įrašyti CD-RW"
+
+#: ../xfburn/xfburn-preferences-dialog.c:265
+msgid "Write DVD-R"
+msgstr "Įrašyti DVD-R"
+
+#: ../xfburn/xfburn-preferences-dialog.c:268
+msgid "Write DVD-RAM"
+msgstr "Įrašyti DVD-RAM"
+
+#: ../xfburn/xfburn-preferences-dialog.c:271
+msgid "Write Blu-ray"
+msgstr "Įrašyti Blu-Ray"
+
+#: ../xfburn/xfburn-preferences-dialog.c:279
+msgid "Sc_an for devices"
+msgstr "_Peržiūrėti įrenginius"
+
+#: ../xfburn/xfburn-preferences-dialog.c:306
+msgid "Show warning on _empty speed list"
+msgstr "Rodyti įspėjimą, jei _greičių sąrašas tuščias"
+
+#: ../xfburn/xfburn-preferences-dialog.c:315
+msgid "FIFO buffer size (in kb)"
+msgstr "FIFO buferio dydis (kilobaitais)"
+
+#: ../xfburn/xfburn-preferences-dialog.c:334
+msgid "_Close"
+msgstr "_Užverti"
+
+#: ../xfburn/xfburn-preferences-dialog.c:469
+msgid "Changing this setting only takes full effect after a program restart."
+msgstr "Šis pakeitimas įsigalios tik programą paleidus iš naujo."
+
+#. label
+#: ../xfburn/xfburn-progress-dialog.c:168
+#: ../xfburn/xfburn-progress-dialog.c:172
+#: ../xfburn/xfburn-progress-dialog.c:527
+msgid "Initializing..."
+msgstr "Inicializuojama..."
+
+#: ../xfburn/xfburn-progress-dialog.c:187
+msgid "Estimated writing speed:"
+msgstr "Apytikris rašymo greitis:"
+
+#: ../xfburn/xfburn-progress-dialog.c:190
+#: ../xfburn/xfburn-progress-dialog.c:206
+#: ../xfburn/xfburn-progress-dialog.c:215
+#: ../xfburn/xfburn-progress-dialog.c:306
+#: ../xfburn/xfburn-progress-dialog.c:450
+#: ../xfburn/xfburn-progress-dialog.c:474
+#: ../xfburn/xfburn-progress-dialog.c:498
+msgid "unknown"
+msgstr "nežinoma"
+
+#: ../xfburn/xfburn-progress-dialog.c:201
+msgid "FIFO buffer:"
+msgstr "FIFO buferis:"
+
+#: ../xfburn/xfburn-progress-dialog.c:210
+msgid "Device buffer:"
+msgstr "Įrenginio buferis:"
+
+#. action buttons
+#: ../xfburn/xfburn-progress-dialog.c:220
+msgid "_Stop"
+msgstr "_Stabdyti"
+
+#: ../xfburn/xfburn-progress-dialog.c:227
+msgid "Close"
+msgstr "Užverti"
+
+#: ../xfburn/xfburn-progress-dialog.c:348
+msgid "Are you sure you want to abort?"
+msgstr "Ar tikrai norite nutraukti?"
+
+#: ../xfburn/xfburn-progress-dialog.c:476
+#, c-format
+msgid "Min. fill was %2d%%"
+msgstr "Minimalus užpildymas buvo %2d%%"
+
+#: ../xfburn/xfburn-progress-dialog.c:544
+msgid "Aborted"
+msgstr "Nutraukta"
+
+#: ../xfburn/xfburn-progress-dialog.c:547
+msgid "Formatted."
+msgstr "Suformatuota."
+
+#: ../xfburn/xfburn-progress-dialog.c:556
+msgid "Failed"
+msgstr "Nepavyko"
+
+#: ../xfburn/xfburn-progress-dialog.c:559
+msgid "Cancelled"
+msgstr "Atšaukta"
+
+#: ../xfburn/xfburn-progress-dialog.c:562
+msgid "Completed"
+msgstr "Atlikta"
+
+#: ../xfburn/xfburn-progress-dialog.c:600
+msgid "Aborting..."
+msgstr "Nutraukiama..."
+
+#: ../xfburn/xfburn-utils.c:131
+msgid "Select command"
+msgstr "Pasirinkti komandą"
+
+#: ../xfburn/xfburn-welcome-tab.c:99
+msgid "Welcome to Xfburn!"
+msgstr "Jus sveikina Xfburn!"
+
+#. buttons
+#: ../xfburn/xfburn-welcome-tab.c:118
+msgid "<big>Burn _Image</big>"
+msgstr "<big>Įrašyti _atvaizdį</big>"
+
+#: ../xfburn/xfburn-welcome-tab.c:118
+msgid "Burn a prepared compilation, i.e. an .ISO file"
+msgstr "Įrašyti paruoštą rinkinį, t.y. ISO failą"
+
+#: ../xfburn/xfburn-welcome-tab.c:123
+msgid "<big>New _Data Composition</big>"
+msgstr "<big>Naujas _duomenų projektas</big>"
+
+#: ../xfburn/xfburn-welcome-tab.c:123
+msgid "Create a new data disc with the files of your choosing"
+msgstr "Sukurti naują duomenų diską su pasirinktais failais"
+
+#: ../xfburn/xfburn-welcome-tab.c:128
+msgid "<big>_Blank Disc</big>"
+msgstr "<big>_Trinti diską</big>"
+
+#: ../xfburn/xfburn-welcome-tab.c:128
+msgid "Prepare the rewriteable disc for a new burn"
+msgstr "Paruošti perrašomą diską naujam įrašymui"
+
+#: ../xfburn/xfburn-welcome-tab.c:133
+msgid "<big>_Audio CD</big>"
+msgstr "<big>_Garso CD</big>"
+
+#: ../xfburn/xfburn-welcome-tab.c:133
+msgid "Audio CD playable in regular stereos"
+msgstr "Garso CD grojamas įprastuose grotuvuose"
+
+#: ../xfburn/xfburn-audio-composition.c:222
+#: ../xfburn/xfburn-audio-composition.c:371
+msgid "What files can get burned to an audio CD?"
+msgstr "Kokie failai gali būti įrašyti į garso CD?"
+
+#: ../xfburn/xfburn-audio-composition.c:226 ../xfburn-popup-menus.ui.h:4
+msgid "Rename Artist"
+msgstr "Pakeisti atlikėją"
+
+#: ../xfburn/xfburn-audio-composition.c:226
+msgid "Rename the artist of the selected file"
+msgstr "Pakeisti pasirinkto failo atlikėją"
+
+#: ../xfburn/xfburn-audio-composition.c:228 ../xfburn-popup-menus.ui.h:5
+msgid "Rename Title"
+msgstr "Pakeisti pavadinimą"
+
+#: ../xfburn/xfburn-audio-composition.c:228
+msgid "Rename the title of the selected file"
+msgstr "Pakeisti pasirinkto failo pavadinimą"
+
+#. Note to translators: you can probably keep this as gstreamer,
+#. * unless you have a good reason to call it by another name that
+#. * the user would understand better
+#: ../xfburn/xfburn-audio-composition.c:371
+#: ../xfburn/xfburn-transcoder-gst.c:579
+msgid "gstreamer"
+msgstr "gstreamer"
+
+#: ../xfburn/xfburn-audio-composition.c:402
+msgid "Pos"
+msgstr "Numeris"
+
+#: ../xfburn/xfburn-audio-composition.c:404
+msgid "Length"
+msgstr "Trukmė"
+
+#: ../xfburn/xfburn-audio-composition.c:410
+msgid "Artist"
+msgstr "Atlikėjas"
+
+#: ../xfburn/xfburn-audio-composition.c:423
+msgid "Title"
+msgstr "Antraštė"
+
+#: ../xfburn/xfburn-audio-composition.c:434
+msgid "Filename"
+msgstr "Failo pavadinimas"
+
+#: ../xfburn/xfburn-audio-composition.c:581
+msgid "Cannot burn audio onto a DVD."
+msgstr "Nepavyko įrašyti garso į DVD."
+
+#: ../xfburn/xfburn-audio-composition.c:1259
+msgid "You can only have a maximum of 99 tracks."
+msgstr "Galite turėti daugiausiai 99 takelius."
+
+#: ../xfburn/xfburn-burn-audio-cd-composition-dialog.c:279
+msgid "A problem with the burn backend occurred."
+msgstr "Įrašymo posistemėje įvyko klaida."
+
+#: ../xfburn/xfburn-disc-usage.c:161
+msgid "Proceed to Burn"
+msgstr "Tęsti ir įrašyti"
+
+#: ../xfburn/xfburn-disc-usage.c:201
+msgid "You are trying to burn more onto the disc than it can hold."
+msgstr "Jūs bandote į diską įrašyti daugiau negu jame telpa."
+
+#. globals
+#: ../xfburn/xfburn-transcoder-basic.c:69
+#: ../xfburn/xfburn-transcoder-gst.c:145
+msgid "An error occurred while setting the burning backend up"
+msgstr "Nustatant rašymo vidinę pusę, įvyko klaida"
+
+#: ../xfburn/xfburn-transcoder-basic.c:129
+msgid "basic"
+msgstr "paprastas"
+
+#: ../xfburn/xfburn-transcoder-basic.c:135
+msgid ""
+"The basic transcoder is built in,\n"
+"and does not require any library.\n"
+"But it can only handle uncompressed\n"
+".wav files.\n"
+"If you would like to create audio\n"
+"compositions from different types of\n"
+"audio files, please compile with\n"
+"gstreamer support."
+msgstr "Paprastas perkoduotojas yra įmontuotas,\njam nereikia papildomų bibliotekų.\nBet jis gali susidoroti tik su\nnesuspaustais .wav failais.\nJei norite sukurti garso projektą iš\nkitų garso failų tipų, sukompiliuokite\nsu gstreamer palaikymu."
+
+#: ../xfburn/xfburn-transcoder-basic.c:159
+#, c-format
+msgid "File %s does not have a .wav extension"
+msgstr "Failas „%s“ neturi .wav plėtinio"
+
+#: ../xfburn/xfburn-transcoder-basic.c:164
+#, c-format
+msgid "File %s does not contain uncompressed PCM wave audio"
+msgstr "Faile „%s“ nėra nesuspausto PCM wav garso"
+
+#: ../xfburn/xfburn-transcoder-basic.c:170
+#, c-format
+msgid "Could not stat %s: %s"
+msgstr "Negalėjome gauti „%s“ statuso: %s"
+
+#: ../xfburn/xfburn-transcoder-basic.c:202
+#, c-format
+msgid "Could not open %s."
+msgstr "Nepavyko atverti %s."
+
+#: ../xfburn/xfburn-transcoder-basic.c:281
+#, c-format
+msgid "Could not open %s: %s"
+msgstr "Nepavyko atverti %s: %s"
+
+#: ../xfburn/xfburn-transcoder-gst.c:144
+msgid "An error occurred setting gstreamer up for transcoding"
+msgstr "Nustatant gstreamer perkodavimui, įvyko klaida"
+
+#: ../xfburn/xfburn-transcoder-gst.c:146
+#, c-format
+msgid ""
+"%s is missing.\n"
+"\n"
+"You do not have a decoder installed to handle this file.\n"
+"Probably you need to look at the gst-plugins-* packages\n"
+"for the necessary plugins.\n"
+msgstr "Trūksta %s.\n\nJūs neturite dekoderio šio failo tipui.\nGreičiausiai reikalingus įskiepius rasite\ngst-plugins-* paketuose.\n"
+
+#: ../xfburn/xfburn-transcoder-gst.c:542
+msgid "File content has a decoder but is not audio."
+msgstr "Failo turinyje yra dekoderis, tačiau tai nėra garso įrašas."
+
+#: ../xfburn/xfburn-transcoder-gst.c:585
+msgid ""
+"The gstreamer transcoder uses the gstreamer\n"
+"library for creating audio compositions.\n"
+"\n"
+"Essentially all audio files should be supported\n"
+"given that the correct plugins are installed.\n"
+"If an audio file is not recognized, make sure\n"
+"that you have the 'good','bad', and 'ugly'\n"
+"gstreamer plugin packages installed."
+msgstr "Gstreamer perkoduotojas naudoja gstreamer\nbiblioteką garso projektų kūrimui.\n\nJei visi reikalingi įskiepiai įdiegti, bus palaikomi\nvisi pagrindiniai garso failai.\nJei garso failas neatpažintas, įsitikinkite\njog esate įdiegę „good“,„bad“ ir „ugly“\ngstreamer įskiepių paketus."
+
+#: ../xfburn/xfburn-transcoder-gst.c:627
+msgid "No information available on which plugin is required."
+msgstr "Nėra informacijos apie tai, kuris įskiepis yra reikalingas."
+
+#: ../xfburn/xfburn-transcoder-gst.c:629
+msgid "Required plugins: "
+msgstr "Reikalingi įskiepiai: "
+
+#: ../xfburn/xfburn-transcoder-gst.c:662 ../xfburn/xfburn-transcoder-gst.c:692
+#, c-format
+msgid "An error occurred while identifying '%s' with gstreamer"
+msgstr "Įvyko klaida, nustatant \"%s\" tapatumą su gstreamer"
+
+#: ../xfburn/xfburn-transcoder-gst.c:679
+msgid "A plugin"
+msgstr "Įskiepis"
+
+#: ../xfburn/xfburn-transcoder-gst.c:814
+#, c-format
+msgid "Gstreamer did not want to start transcoding (timed out)"
+msgstr "Gstreamer nepaleido perkodavimo (baigėsi tam skirtas laikas)"
+
+#: ../xfburn/xfburn-transcoder-gst.c:849
+#, c-format
+msgid "Failed to change songs while transcoding"
+msgstr "Perkoduojant nepavyko pakeisti dainų"
+
+#: ../xfburn/xfburn-transcoder.c:103 ../xfburn/xfburn-transcoder.c:113
+msgid "none"
+msgstr "nieko"
+
+#: ../xfburn/xfburn-transcoder.c:124 ../xfburn/xfburn-transcoder.c:151
+#: ../xfburn/xfburn-transcoder.c:163
+#, c-format
+msgid "not implemented"
+msgstr "neįgyvendinta"
+
+#: ../xfburn/xfburn-device.c:255 ../xfburn/xfburn-device.c:256
+msgid "Display name"
+msgstr "Rodyti vardą"
+
+#: ../xfburn/xfburn-device.c:258 ../xfburn/xfburn-device.c:259
+msgid "Device address"
+msgstr "Įrenginio adresas"
+
+#: ../xfburn/xfburn-device.c:261
+msgid "Device revision"
+msgstr "Įrenginio revizija"
+
+#: ../xfburn/xfburn-device.c:262
+msgid "Device Revision"
+msgstr "Įrenginio revizija"
+
+#: ../xfburn/xfburn-device.c:264 ../xfburn/xfburn-device.c:265
+msgid "Burn speeds supported by the device"
+msgstr "Įrenginio palaikomi įrašymo greičiai"
+
+#: ../xfburn/xfburn-device.c:267 ../xfburn/xfburn-device.c:268
+msgid "Disc status"
+msgstr "Disko būsena"
+
+#: ../xfburn/xfburn-device.c:270 ../xfburn/xfburn-device.c:271
+msgid "Profile no. as reported by libburn"
+msgstr "Profilio numeris kurį pranešė libburn"
+
+#: ../xfburn/xfburn-device.c:273 ../xfburn/xfburn-device.c:274
+msgid "Profile name as reported by libburn"
+msgstr "Profilio vardas kurį pranešė libburn"
+
+#: ../xfburn/xfburn-device.c:276 ../xfburn/xfburn-device.c:277
+msgid "Is the disc erasable"
+msgstr "Ar diskas ištrinamas"
+
+#: ../xfburn/xfburn-device.c:279 ../xfburn/xfburn-device.c:280
+msgid "Can burn CDR"
+msgstr "Galima įrašyti CDR"
+
+#: ../xfburn/xfburn-device.c:282 ../xfburn/xfburn-device.c:283
+msgid "Can burn CDRW"
+msgstr "Galima įrašyti CDRW"
+
+#: ../xfburn/xfburn-device.c:285 ../xfburn/xfburn-device.c:286
+msgid "Can burn DVDR"
+msgstr "Galima įrašyti DVDR"
+
+#: ../xfburn/xfburn-device.c:288 ../xfburn/xfburn-device.c:289
+msgid "Can burn DVDPLUSR"
+msgstr "Galima įrašyti DVDPLUSR"
+
+#: ../xfburn/xfburn-device.c:291 ../xfburn/xfburn-device.c:292
+msgid "Can burn DVDRAM"
+msgstr "Galima įrašyti DVDRAM"
+
+#: ../xfburn/xfburn-device.c:294 ../xfburn/xfburn-device.c:295
+msgid "Can burn Blu-ray"
+msgstr "Gali įrašyti Blu-Ray"
+
+#: ../xfburn/xfburn-device.c:297 ../xfburn/xfburn-device.c:298
+msgid "libburn TAO block types"
+msgstr "libburn TAO block tipai"
+
+#: ../xfburn/xfburn-device.c:300 ../xfburn/xfburn-device.c:301
+msgid "libburn SAO block types"
+msgstr "libburn SAO block tipai"
+
+#: ../xfburn/xfburn-device.c:303 ../xfburn/xfburn-device.c:304
+msgid "libburn RAW block types"
+msgstr "libburn RAW block tipai"
+
+#: ../xfburn/xfburn-device.c:306 ../xfburn/xfburn-device.c:307
+msgid "libburn PACKET block types"
+msgstr "libburn PACKET block tipai"
+
+#: ../xfburn.ui.h:1
+msgid "_Files"
+msgstr "_Failai"
+
+#: ../xfburn.ui.h:2
+msgid "New _data composition"
+msgstr "Naujas _duomenų projektas"
+
+#: ../xfburn.ui.h:3
+msgid "New _audio composition"
+msgstr "Naujas _garso projektas"
+
+#: ../xfburn.ui.h:4
+msgid "_Close composition"
+msgstr "_Užverti projektą"
+
+#: ../xfburn.ui.h:5
+msgid "_Quit"
+msgstr "_Išeiti"
+
+#: ../xfburn.ui.h:6
+msgid "_Edit"
+msgstr "_Taisa"
+
+#: ../xfburn.ui.h:7
+msgid "Prefere_nce"
+msgstr "_Nuostata"
+
+#: ../xfburn.ui.h:8
+msgid "_Action"
+msgstr "_Veiksmas"
+
+#: ../xfburn.ui.h:11
+msgid "_View"
+msgstr "R_odinys"
+
+#: ../xfburn.ui.h:13
+msgid "Show Toolbars"
+msgstr "Rodyti įrankių juostas"
+
+#: ../xfburn.ui.h:14
+msgid "Show Filebrowser"
+msgstr "Rodyti failų naršyklę"
+
+#: ../xfburn.ui.h:15
+msgid "_Help"
+msgstr "Ž_inynas"
+
+#: ../xfburn.ui.h:16
+msgid "About"
+msgstr "Apie"
+
+#: ../xfburn-popup-menus.ui.h:2
+msgid "Rename"
+msgstr "Pervadinti"
+
+#: ../desktop-integration/thunar-sendto-xfburn.desktop.in.h:1
+msgid "Data Composition"
+msgstr "Duomenų projektas"
+
+#: ../xfburn.desktop.in.h:2
+msgid "Disk Burning"
+msgstr "Rašymas į diską"
+
+#: ../xfburn.desktop.in.h:3
+msgid "CD and DVD burning application"
+msgstr "CD ir DVD įrašymo programa"
+
+#: ../xfburn.desktop.in.h:4
+msgid "Burn Image (xfburn)"
+msgstr "Rašyti į diską (xfburn)"
+
+#: ../org.xfce.xfburn.appdata.xml.in.h:1
+msgid ""
+"Xfburn is a simple CD/DVD burning tool based on libburnia libraries. It can "
+"blank CD/DVD(-RW)s, burn and create iso images, audio CDs, as well as burn "
+"personal compositions of data to either CD or DVD. It is stable and under "
+"ongoing development."
+msgstr "Xfburn yra paprastas CD/DVD įrašymo įrankis, pagrįstas libburnia bibliotekomis. Jis gali ištrinti CD/DVD(-RW) diskus, įrašyti ir sukurti iso atvaizdžius, garso CD diskus, o taip pat įrašyti asmenines duomenų kompozicijas į CD arba DVD. Jis yra stabilus ir aktyviai plėtojamas."

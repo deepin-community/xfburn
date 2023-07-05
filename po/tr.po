@@ -1,0 +1,1519 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Demiray Muhterem <mdemiray@msn.com>, 2018-2019
+# Necdet Yücel <necdetyucel@gmail.com>, 2014-2015,2017
+# Recep, 2014
+# Samed Beyribey <ras0ir@eventualis.org>, 2008
+# Serdar Sağlam <teknomobil@msn.com>, 2019-2020
+# Volkan Gezer <volkangezer@gmail.com>, 2013
+msgid ""
+msgstr ""
+"Project-Id-Version: Xfce Apps\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-28 00:32+0100\n"
+"PO-Revision-Date: 2020-01-28 13:44+0000\n"
+"Last-Translator: Serdar Sağlam <teknomobil@msn.com>\n"
+"Language-Team: Turkish (http://www.transifex.com/xfce/xfce-apps/language/tr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../xfburn/xfburn-global.h:28
+msgid "Capacity:"
+msgstr "Kapasite:"
+
+#: ../xfburn/xfburn-global.h:29
+msgid "addr:"
+msgstr "adres:"
+
+#: ../xfburn/xfburn-global.h:30
+msgid "Time total:"
+msgstr "Toplam süre:"
+
+#: ../xfburn/xfburn-global.h:32
+msgid "length"
+msgstr "uzunluk"
+
+#: ../xfburn/xfburn-global.h:33 ../xfburn/xfburn-copy-cd-progress-dialog.c:93
+msgid "Flushing cache..."
+msgstr "Önbellek temizleniyor..."
+
+#: ../xfburn/xfburn-global.h:34
+msgid "Please insert a recordable disc and hit enter"
+msgstr "Lütfen kaydedilebilir bir disk yerleştirin ve Enter'a basın"
+
+#: ../xfburn/xfburn-global.h:35
+msgid "Cannot determine disc status - hit enter to try again."
+msgstr "Disk durumu belirlenemedi - tekrar denemek için Enter'a basın"
+
+#: ../xfburn/xfburn-global.h:36
+msgid "CD copying finished successfully."
+msgstr "CD kopyalama başarıyla tamamlandı."
+
+#: ../xfburn/xfburn-global.h:43
+msgid "Data composition"
+msgstr "Veri derlemesi"
+
+#: ../xfburn/xfburn-adding-progress.c:83
+msgid "Adding files to the composition"
+msgstr "Yazılacak dosyalar ekleniyor"
+
+#: ../xfburn/xfburn-adding-progress.c:96
+msgid "Cancel"
+msgstr "İptal"
+
+#: ../xfburn/xfburn-blank-dialog.c:70
+msgid "Quick Blank"
+msgstr "Hızlı Boşalt"
+
+#: ../xfburn/xfburn-blank-dialog.c:71
+msgid "Full Blank (slow)"
+msgstr "Tamamen Boşalt (yavaş)"
+
+#: ../xfburn/xfburn-blank-dialog.c:72
+msgid "Quick Format"
+msgstr "Hızlı Biçimlendir"
+
+#: ../xfburn/xfburn-blank-dialog.c:73
+msgid "Full Format"
+msgstr "Tamamen Biçimlendir"
+
+#: ../xfburn/xfburn-blank-dialog.c:74
+msgid "Quick Deformat"
+msgstr "Hızlı Geribiçimlendirme"
+
+#: ../xfburn/xfburn-blank-dialog.c:75
+msgid "Full Deformat (slow)"
+msgstr "Tamamen Geribiçimlendirme (yavaş)"
+
+#: ../xfburn/xfburn-blank-dialog.c:119
+msgid "Eject the disc"
+msgstr "Diski çıkar"
+
+#: ../xfburn/xfburn-blank-dialog.c:120
+msgid "Default value for eject checkbox"
+msgstr "Çıkarma seçeneği için öntanımlı değer"
+
+#: ../xfburn/xfburn-blank-dialog.c:168
+msgid "Blank Disc"
+msgstr "Disk Boşalt"
+
+#: ../xfburn/xfburn-blank-dialog.c:182
+#: ../xfburn/xfburn-burn-data-composition-base-dialog.c:165
+#: ../xfburn/xfburn-burn-image-dialog.c:181
+#: ../xfburn/xfburn-copy-cd-dialog.c:107
+#: ../xfburn/xfburn-copy-dvd-dialog.c:104
+#: ../xfburn/xfburn-burn-audio-cd-composition-dialog.c:129
+msgid "Burning device"
+msgstr "Yazma aygıtı"
+
+#: ../xfburn/xfburn-blank-dialog.c:195 ../xfburn/xfburn-device-box.c:156
+msgid "Blank mode"
+msgstr "Boşaltma kipi"
+
+#: ../xfburn/xfburn-blank-dialog.c:203
+#: ../xfburn/xfburn-burn-data-composition-base-dialog.c:197
+#: ../xfburn/xfburn-burn-image-dialog.c:189
+#: ../xfburn/xfburn-copy-cd-dialog.c:115
+#: ../xfburn/xfburn-copy-dvd-dialog.c:112
+#: ../xfburn/xfburn-burn-audio-cd-composition-dialog.c:163
+msgid "Options"
+msgstr "Seçenekler"
+
+#: ../xfburn/xfburn-blank-dialog.c:207
+#: ../xfburn/xfburn-burn-data-composition-base-dialog.c:201
+#: ../xfburn/xfburn-burn-image-dialog.c:193
+#: ../xfburn/xfburn-copy-cd-dialog.c:119
+#: ../xfburn/xfburn-copy-dvd-dialog.c:116
+#: ../xfburn/xfburn-burn-audio-cd-composition-dialog.c:167
+msgid "E_ject disk"
+msgstr "Diski _çıkar"
+
+#. action buttons
+#. align = gtk_alignment_new (0, 0, 0, 0);
+#. gtk_alignment_set_padding (GTK_ALIGNMENT (align), 0, 0, BORDER * 4, 0);
+#. gtk_widget_show (align);
+#. gtk_box_pack_start (GTK_BOX (vbox), align, FALSE, FALSE, 0);
+#. action buttons
+#: ../xfburn/xfburn-blank-dialog.c:213
+#: ../xfburn/xfburn-burn-data-composition-base-dialog.c:254
+#: ../xfburn/xfburn-burn-image-dialog.c:218
+#: ../xfburn/xfburn-copy-cd-dialog.c:165
+#: ../xfburn/xfburn-copy-dvd-dialog.c:162 ../xfburn/xfburn-utils.c:131
+#: ../xfburn/xfburn-burn-audio-cd-composition-dialog.c:188
+msgid "_Cancel"
+msgstr "_İptal"
+
+#: ../xfburn/xfburn-blank-dialog.c:217
+msgid "_Blank"
+msgstr "_Boşalt"
+
+#. blanking can only be performed on blank discs, format and deformat are
+#. allowed to be blank ones
+#: ../xfburn/xfburn-blank-dialog.c:329
+msgid "The inserted disc is already blank."
+msgstr "Yerleştirmiş olduğunuz disk zaten boş."
+
+#. these ones we can blank
+#: ../xfburn/xfburn-blank-dialog.c:335
+msgid "Ready"
+msgstr "Hazır"
+
+#: ../xfburn/xfburn-blank-dialog.c:338
+msgid "No disc detected in the drive."
+msgstr "Sürücüde disk bulunmamaktadır."
+
+#: ../xfburn/xfburn-blank-dialog.c:347
+msgid "Disc is not erasable."
+msgstr "Disk silinebilir değil."
+
+#: ../xfburn/xfburn-blank-dialog.c:387
+msgid "Blanking disc..."
+msgstr "Disk boşaltılıyor..."
+
+#: ../xfburn/xfburn-blank-dialog.c:414
+#: ../xfburn/xfburn-burn-data-composition-base-dialog.c:486
+#: ../xfburn/xfburn-perform-burn.c:489
+#, c-format
+msgid "Done"
+msgstr "Tamamlandı"
+
+#: ../xfburn/xfburn-blank-dialog.c:417 ../xfburn/xfburn-perform-burn.c:496
+#: ../xfburn/xfburn-progress-dialog.c:637
+msgid "Failure"
+msgstr "Hata"
+
+#: ../xfburn/xfburn-blank-dialog.c:434
+#: ../xfburn/xfburn-burn-data-composition-base-dialog.c:592
+#: ../xfburn/xfburn-burn-image-dialog.c:392
+#: ../xfburn/xfburn-burn-image-dialog.c:570
+#: ../xfburn/xfburn-burn-audio-cd-composition-dialog.c:365
+msgid "Unable to grab the drive."
+msgstr "Sürücü alınamadı."
+
+#: ../xfburn/xfburn-burn-data-composition-base-dialog.c:128
+msgid "Image"
+msgstr "Kalıp"
+
+#: ../xfburn/xfburn-burn-data-composition-base-dialog.c:130
+msgid "Show volume name"
+msgstr "Birim adını göster"
+
+#: ../xfburn/xfburn-burn-data-composition-base-dialog.c:130
+msgid "Show a text entry for the name of the volume"
+msgstr "Birim ismini bir yazı girdisi olarak göster"
+
+#: ../xfburn/xfburn-burn-data-composition-base-dialog.c:151
+#: ../xfburn/xfburn-burn-audio-cd-composition-dialog.c:117
+msgid "Burn Composition"
+msgstr "Derlemeyi Yaz"
+
+#: ../xfburn/xfburn-burn-data-composition-base-dialog.c:176
+msgid "Composition name"
+msgstr "Derleme adı"
+
+#: ../xfburn/xfburn-burn-data-composition-base-dialog.c:181
+msgid "<small>Would you like to change the default composition name?</small>"
+msgstr "<small>Öntanımlı derleme adını değiştirmek ister misiniz?</small>"
+
+#: ../xfburn/xfburn-burn-data-composition-base-dialog.c:206
+#: ../xfburn/xfburn-burn-image-dialog.c:198
+#: ../xfburn/xfburn-copy-cd-dialog.c:124
+#: ../xfburn/xfburn-copy-dvd-dialog.c:121
+#: ../xfburn/xfburn-burn-audio-cd-composition-dialog.c:172
+msgid "_Dummy write"
+msgstr "_Deneme yazımı"
+
+#: ../xfburn/xfburn-burn-data-composition-base-dialog.c:210
+#: ../xfburn/xfburn-burn-image-dialog.c:202
+#: ../xfburn/xfburn-burn-audio-cd-composition-dialog.c:176
+msgid "Burn_Free"
+msgstr "Serbest_Yak"
+
+#: ../xfburn/xfburn-burn-data-composition-base-dialog.c:215
+#: ../xfburn/xfburn-burn-image-dialog.c:207
+msgid "Stream _Recording"
+msgstr "Akış _Kaydediliyor"
+
+#. create ISO ?
+#: ../xfburn/xfburn-burn-data-composition-base-dialog.c:221
+#: ../xfburn/xfburn-copy-cd-dialog.c:133
+#: ../xfburn/xfburn-copy-dvd-dialog.c:130
+msgid "Only create _ISO"
+msgstr "Sadece _ISO oluştur"
+
+#: ../xfburn/xfburn-burn-data-composition-base-dialog.c:258
+#: ../xfburn/xfburn-burn-audio-cd-composition-dialog.c:192
+msgid "_Burn Composition"
+msgstr "Derlemeyi _Yazdır"
+
+#: ../xfburn/xfburn-burn-data-composition-base-dialog.c:444
+#, c-format
+msgid "Could not create destination ISO file: %s"
+msgstr "Hedef ISO dosyası oluşturulamadı: %s"
+
+#: ../xfburn/xfburn-burn-data-composition-base-dialog.c:451
+msgid "Writing ISO..."
+msgstr "ISO yazılıyor..."
+
+#: ../xfburn/xfburn-burn-data-composition-base-dialog.c:468
+#, c-format
+msgid "An error occured while writing ISO: %s"
+msgstr "ISO yazılırken bir hata meydana geldi: %s"
+
+#: ../xfburn/xfburn-burn-data-composition-base-dialog.c:524
+#: ../xfburn/xfburn-burn-data-composition-base-dialog.c:530
+msgid "An error occurred in the burn backend."
+msgstr "Yazma altyapısında bir hata meydana geldi."
+
+#: ../xfburn/xfburn-burn-data-composition-base-dialog.c:553
+#: ../xfburn/xfburn-burn-audio-cd-composition-dialog.c:296
+msgid "The write mode is not supported currently."
+msgstr "Yazma kipi henüz desteklenmemektedir."
+
+#. could not create source
+#: ../xfburn/xfburn-burn-data-composition-base-dialog.c:636
+msgid "Could not create ISO source structure."
+msgstr "ISO kaynak yapısı oluşturulamadı."
+
+#: ../xfburn/xfburn-burn-image-dialog.c:137
+msgid "Burn image"
+msgstr "Kalıbı yazdır"
+
+#. file
+#: ../xfburn/xfburn-burn-image-dialog.c:145
+#: ../xfburn/xfburn-burn-image-dialog.c:166
+msgid "Image to burn"
+msgstr "Yazılacak kalıp"
+
+#: ../xfburn/xfburn-burn-image-dialog.c:149
+msgid "All files"
+msgstr "Tüm dosyalar"
+
+#: ../xfburn/xfburn-burn-image-dialog.c:153
+msgid "ISO images"
+msgstr "ISO kalıpları"
+
+#: ../xfburn/xfburn-burn-image-dialog.c:212
+msgid "_Quit after success"
+msgstr "_Tamamlandıktan sonra çık"
+
+#: ../xfburn/xfburn-burn-image-dialog.c:222
+msgid "_Burn image"
+msgstr "Kalıbı _yazdır"
+
+#: ../xfburn/xfburn-burn-image-dialog.c:275
+msgid "Burn mode is not currently implemented."
+msgstr "Yazma kipi henüz tamamlanmadı."
+
+#: ../xfburn/xfburn-burn-image-dialog.c:326
+#: ../xfburn/xfburn-burn-image-dialog.c:355
+msgid "An error occurred in the burn backend"
+msgstr "Yazma altyapısında bir hata meydana geldi"
+
+#: ../xfburn/xfburn-burn-image-dialog.c:339
+msgid "Unable to determine image size."
+msgstr "Kalıp boyutu belirlenemedi."
+
+#: ../xfburn/xfburn-burn-image-dialog.c:346
+msgid "Cannot open image."
+msgstr "Kalıp açılamadı."
+
+#: ../xfburn/xfburn-burn-image-dialog.c:383
+msgid "Burning image..."
+msgstr "Kalıp yazılıyor..."
+
+#: ../xfburn/xfburn-burn-image-dialog.c:456
+msgid ""
+"<span weight=\"bold\" foreground=\"darkred\" stretch=\"semiexpanded\">Please"
+" select an image to burn</span>"
+msgstr "<span weight=\"bold\" foreground=\"darkred\" stretch=\"semiexpanded\">Yazdırmak için lütfen bir kalıp dosyası seçiniz</span>"
+
+#: ../xfburn/xfburn-burn-image-dialog.c:496
+msgid ""
+"Cannot append data to multisession disc in this write mode (use TAO instead)"
+msgstr "Bu yazma kipinde çokluoturum diskine veri ilave edilemez (bunun yerine TAO kullanın)"
+
+#: ../xfburn/xfburn-burn-image-dialog.c:500
+msgid "Closed disc with data detected. Need blank or appendable disc"
+msgstr "Veri yazılmış bir disk bulundu. Boş veya uygun bir disk yerleştiriniz"
+
+#: ../xfburn/xfburn-burn-image-dialog.c:502
+msgid "No disc detected in drive"
+msgstr "Sürücüde disk bulunamadı"
+
+#: ../xfburn/xfburn-burn-image-dialog.c:504
+msgid "Cannot recognize state of drive and disc"
+msgstr "Sürücünün ve diskin durumu tanımlanamadı"
+
+#: ../xfburn/xfburn-burn-image-dialog.c:516
+msgid "The selected image does not fit on the inserted disc"
+msgstr "Seçilen kalıp yerleştirilen diske sığmamaktadır"
+
+#: ../xfburn/xfburn-burn-image-dialog.c:520
+msgid "Failed to get image size"
+msgstr "Kalıp boyutu alınamadı"
+
+#: ../xfburn/xfburn-burn-image-dialog.c:549
+msgid ""
+"Make sure you selected a valid file and you have the proper permissions to "
+"access it."
+msgstr "Geçerli bir dosya seçtiğinizden ve o dosyaya erişim için izniniz olduğundan emin olmalısınız."
+
+#: ../xfburn/xfburn-compositions-notebook.c:147
+msgid "Audio composition"
+msgstr "Ses derlemesi"
+
+#: ../xfburn/xfburn-compositions-notebook.c:208
+msgid "Welcome"
+msgstr "Hoş Geldiniz"
+
+#: ../xfburn/xfburn-copy-cd-dialog.c:88
+#: ../xfburn/xfburn-copy-cd-progress-dialog.c:156
+msgid "Copy data CD"
+msgstr "Veri CD'si Kopyala"
+
+#: ../xfburn/xfburn-copy-cd-dialog.c:99
+msgid "CD Reader device"
+msgstr "CD Okuyucu aygıtı"
+
+#: ../xfburn/xfburn-copy-cd-dialog.c:128
+#: ../xfburn/xfburn-copy-dvd-dialog.c:125
+msgid "On the _fly"
+msgstr "Anı_nda"
+
+#: ../xfburn/xfburn-copy-cd-dialog.c:169
+msgid "_Copy CD"
+msgstr "CD'yi _Kopyala"
+
+#: ../xfburn/xfburn-copy-cd-progress-dialog.c:105
+msgid "Please insert a recordable disc."
+msgstr "Lütfen kayıt edilebilir bir disk yerleştiriniz."
+
+#: ../xfburn/xfburn-copy-cd-progress-dialog.c:127
+msgid "Writing CD..."
+msgstr "CD yazılıyor..."
+
+#: ../xfburn/xfburn-copy-cd-progress-dialog.c:140
+#: ../xfburn/xfburn-create-iso-progress-dialog.c:102
+msgid "Reading CD..."
+msgstr "CD Okunuyor..."
+
+#: ../xfburn/xfburn-copy-dvd-dialog.c:85
+msgid "Copy data DVD"
+msgstr "Veri DVD'si Kopyala"
+
+#: ../xfburn/xfburn-copy-dvd-dialog.c:96
+msgid "DVD Reader device"
+msgstr "DVD Okuyucu Aygıtı"
+
+#: ../xfburn/xfburn-copy-dvd-dialog.c:166
+msgid "_Copy DVD"
+msgstr "DVD _Kopyala"
+
+#: ../xfburn/xfburn-create-iso-progress-dialog.c:117
+msgid "Create ISO from CD"
+msgstr "CD'den ISO oluştur"
+
+#: ../xfburn/xfburn-data-composition.c:333
+#: ../xfburn/xfburn-data-composition.c:966
+#: ../xfburn/xfburn-audio-composition.c:216
+#: ../xfburn/xfburn-audio-composition.c:358
+#: ../xfburn/xfburn-audio-composition.c:975
+msgid "Add"
+msgstr "Ekle"
+
+#: ../xfburn/xfburn-data-composition.c:333
+#: ../xfburn/xfburn-audio-composition.c:216
+#: ../xfburn/xfburn-audio-composition.c:358
+msgid "Add the selected file(s) to the composition"
+msgstr "Seçilen dosya veya dosyaları derlemeye ekler"
+
+#: ../xfburn/xfburn-data-composition.c:335 ../xfburn-popup-menus.ui.h:1
+msgid "Create directory"
+msgstr "Dizin oluştur"
+
+#: ../xfburn/xfburn-data-composition.c:335
+msgid "Add a new directory to the composition"
+msgstr "Derlemeye yeni bir dizin ekler"
+
+#: ../xfburn/xfburn-data-composition.c:340
+#: ../xfburn/xfburn-audio-composition.c:218
+#: ../xfburn/xfburn-audio-composition.c:363 ../xfburn-popup-menus.ui.h:3
+msgid "Remove"
+msgstr "Kaldır"
+
+#: ../xfburn/xfburn-data-composition.c:340
+#: ../xfburn/xfburn-audio-composition.c:218
+#: ../xfburn/xfburn-audio-composition.c:363
+msgid "Remove the selected file(s) from the composition"
+msgstr "Seçilen dosya veya dosyaları derlemeden çıkartır"
+
+#: ../xfburn/xfburn-data-composition.c:342
+#: ../xfburn/xfburn-audio-composition.c:220
+#: ../xfburn/xfburn-audio-composition.c:365
+msgid "Clear"
+msgstr "Temizle"
+
+#: ../xfburn/xfburn-data-composition.c:342
+#: ../xfburn/xfburn-audio-composition.c:220
+#: ../xfburn/xfburn-audio-composition.c:365
+msgid "Clear the content of the composition"
+msgstr "Derlemenizi temizlemek için kullanabilirsiniz"
+
+#: ../xfburn/xfburn-data-composition.c:353
+msgid "Volume name :"
+msgstr "Birim adı:"
+
+#: ../xfburn/xfburn-data-composition.c:387
+msgid "Contents"
+msgstr "İçerik"
+
+#: ../xfburn/xfburn-data-composition.c:402
+#: ../xfburn/xfburn-directory-browser.c:113
+msgid "Size"
+msgstr "Boyut"
+
+#: ../xfburn/xfburn-data-composition.c:405
+msgid "Local Path"
+msgstr "Yerel Dosya Yolu"
+
+#: ../xfburn/xfburn-data-composition.c:682
+msgid "You must give a name to the file."
+msgstr "Dosyaya bir isim vermelisiniz."
+
+#: ../xfburn/xfburn-data-composition.c:691
+#: ../xfburn/xfburn-data-composition.c:1208
+#: ../xfburn/xfburn-audio-composition.c:1175
+msgid "A file with the same name is already present in the composition."
+msgstr "Aynı isimdeki dosya  derlemede zaten mevcut."
+
+#: ../xfburn/xfburn-data-composition.c:798
+#: ../xfburn/xfburn-data-composition.c:799
+#: ../xfburn/xfburn-data-composition.c:801
+msgid "New directory"
+msgstr "Yeni dizin"
+
+#: ../xfburn/xfburn-data-composition.c:945
+#: ../xfburn/xfburn-audio-composition.c:972
+msgid "File(s) to add to composition"
+msgstr "Derlemeye eklenecek dosya(lar.)"
+
+#. Note to translators: first %s is the date in "i18n" format (year-month-
+#. day), %d is a running number of compositions
+#: ../xfburn/xfburn-data-composition.c:1051
+#, c-format
+msgid "Data %s~%d"
+msgstr "Veri %s~%d"
+
+#: ../xfburn/xfburn-data-composition.c:1287
+#, c-format
+msgid ""
+"%s cannot be added to the composition, because it exceeds the maximum "
+"allowed file size for iso9660."
+msgstr "%s iso9660 standart boyutunu aştığı için derlemeye eklenemedi."
+
+#: ../xfburn/xfburn-data-composition.c:1294
+#, c-format
+msgid ""
+"%s is larger than what iso9660 level 2 allows. This can be a problem for old"
+" systems or software."
+msgstr "%s iso9660 düzey 2 tarafından izin verilen değerden daha büyük. Bu eski sistemler veya yazılımlar için sorun oluşturabilir."
+
+#: ../xfburn/xfburn-data-composition.c:1378
+#: ../xfburn/xfburn-audio-composition.c:1351
+msgid "Adding home directory"
+msgstr "Ev dizini ekleniyor"
+
+#: ../xfburn/xfburn-data-composition.c:1379
+#: ../xfburn/xfburn-audio-composition.c:1352
+msgid ""
+"You are about to add your home directory to the composition. This is likely to take a very long time, and also to be too big to fit on one disc.\n"
+"\n"
+"Are you sure you want to proceed?"
+msgstr "Ev dizininizi derlemeye ekliyorsunuz. Bu işlem fazla zaman alabileceği gibi, tek bir diske de sığmayabilir.\n\nDevam etmek istediğinizden emin misiniz?"
+
+#: ../xfburn/xfburn-data-composition.c:1547
+#, c-format
+msgid ""
+"A file named \"%s\" already exists in this directory, the file hasn't been "
+"added."
+msgstr "\"%s\" isimli dosya zaten bu dizinde var, dosya eklenmedi."
+
+#: ../xfburn/xfburn-data-composition.c:1946
+#, c-format
+msgid "%s: null pointer"
+msgstr "%s: boş işaretçi"
+
+#: ../xfburn/xfburn-data-composition.c:1948
+#, c-format
+msgid "%s: out of memory"
+msgstr "%s: bellek yetersiz"
+
+#: ../xfburn/xfburn-data-composition.c:1950
+#, c-format
+msgid "%s: node name not unique"
+msgstr "%s: düğüm adı benzersiz değil"
+
+#: ../xfburn/xfburn-data-composition.c:1952
+#, c-format
+msgid "%s: %s (code %X)"
+msgstr "%s: %s (kod %X)"
+
+#. The first string is the renamed name, the second one the original name
+#: ../xfburn/xfburn-data-composition.c:1972
+#, c-format
+msgid "Duplicate filename '%s' for '%s'"
+msgstr "'%2$s' için dosya ismi aynı '%1$s' "
+
+#: ../xfburn/xfburn-data-composition.c:2037
+msgid "Error(s) occured while adding files"
+msgstr "Dosyalar eklenirken hata(lar) oluştu"
+
+#: ../xfburn/xfburn-data-composition.c:2041
+msgid "OK"
+msgstr "Tamam"
+
+#: ../xfburn/xfburn-device-box.c:140 ../xfburn/xfburn-device-box.c:141
+msgid "Show writers only"
+msgstr "Sadece yazıcıları göster"
+
+#: ../xfburn/xfburn-device-box.c:144
+msgid "Show speed selection"
+msgstr "Hız seçimini göster"
+
+#: ../xfburn/xfburn-device-box.c:145
+msgid "Show speed selection combo"
+msgstr "Hız seçimi birleşimini göster"
+
+#: ../xfburn/xfburn-device-box.c:148
+msgid "Show mode selection"
+msgstr "Kip seçimini göster"
+
+#: ../xfburn/xfburn-device-box.c:149
+msgid "Show mode selection combo"
+msgstr "Kip seçimi birleşimini göster"
+
+#: ../xfburn/xfburn-device-box.c:152
+msgid "Is it a valid combination"
+msgstr "Geçerli bir kombinasyon değil"
+
+#: ../xfburn/xfburn-device-box.c:153
+msgid "Is the combination of hardware and disc valid to burn the composition?"
+msgstr "Donanım ve disk kombinasyonu derlemeyi yazmak için geçerli mi? "
+
+#: ../xfburn/xfburn-device-box.c:157
+msgid "The blank mode shows different disc status messages than regular mode"
+msgstr "Boşaltma kipi düzenli kipten daha farklı disk durumu mesajları göstermektedir"
+
+#: ../xfburn/xfburn-device-box.c:206
+msgid "_Speed:"
+msgstr "_Hız:"
+
+#: ../xfburn/xfburn-device-box.c:229
+msgid "Write _mode:"
+msgstr "Yazma _kipi:"
+
+#: ../xfburn/xfburn-device-box.c:340
+msgid "Empty speed list"
+msgstr "Hız listesini boşalt"
+
+#: ../xfburn/xfburn-device-box.c:349
+msgid ""
+"<b>Unable to retrieve the speed list for the drive.</b>\n"
+"\n"
+"This is a known bug for drives. If you're interested in fixing it, please have a look at the libburn library.\n"
+"\n"
+"Burning should still work, but if there are problems anyways, please let us know.\n"
+"\n"
+"<i>Thank you!</i>"
+msgstr "<b>Sürücü için hız listesi alınamıyor.</b>\n\nBu bazı sürücüler için bilinen bir hatadır. Bu hatayı konsol çıktıları ile birlikte <i>xfburn@xfce.org</i> adresine gönderiniz, bu sorunun giderilmesine yardımcı olabilirsiniz.\n\nYazma işi devam edecektir, eğer yazma konusunda başka sorunlar da yaşıyorsanız, bizimle irtibata geçiniz.\n\n<i>Teşekkürler!</i>"
+
+#: ../xfburn/xfburn-device-box.c:360
+msgid "Continue to _show this notice"
+msgstr "Bu uyarıyı gö_stermeye devam et"
+
+#: ../xfburn/xfburn-device-box.c:407
+msgid "default"
+msgstr "öntanımlı"
+
+#: ../xfburn/xfburn-device-box.c:438
+msgid "Max"
+msgstr "Azm"
+
+#: ../xfburn/xfburn-device-box.c:473
+msgid "A full, but erasable disc is in the drive"
+msgstr "Sürücüde dolu ama silinebilir bir disk mevcut"
+
+#: ../xfburn/xfburn-device-box.c:474
+msgid ""
+"Do you want to blank the disc, so that it can be used for the upcoming burn "
+"process?"
+msgstr "Yaklaşan yazma işlemi için kullanılabilmesi için diski boşaltmak ister misiniz?"
+
+#: ../xfburn/xfburn-device-box.c:545
+msgid "Drive can't burn on the inserted disc"
+msgstr "Sürücünüz yerleştirmiş olduğunuz diske veri yazamıyor"
+
+#: ../xfburn/xfburn-device-box.c:554 ../xfburn/xfburn-device-box.c:600
+msgid "Drive is empty"
+msgstr "Sürücü boş"
+
+#: ../xfburn/xfburn-device-box.c:557
+msgid "Sorry, multisession is not yet supported"
+msgstr "Üzgünüz, çokluoturum şimdilik desteklenmemektedir"
+
+#: ../xfburn/xfburn-device-box.c:560
+msgid "Inserted disc is full"
+msgstr "Yerleştirdiğiniz disk dolu"
+
+#: ../xfburn/xfburn-device-box.c:563 ../xfburn/xfburn-device-box.c:606
+msgid "Inserted disc is unsuitable"
+msgstr "Yerleştirdiğiniz disk uygun değil"
+
+#: ../xfburn/xfburn-device-box.c:566 ../xfburn/xfburn-device-box.c:609
+msgid "Cannot access drive (it might be in use)"
+msgstr "Sürücüye erişilemiyor (kullanımda olabilir)"
+
+#: ../xfburn/xfburn-device-box.c:571 ../xfburn/xfburn-device-box.c:612
+msgid "Error determining disc"
+msgstr "Disk belirlenirken hata meydana geldi"
+
+#: ../xfburn/xfburn-device-box.c:592
+msgid "Write-once disc, no blanking possible"
+msgstr "Disk sadece yazılabilir, bu yüzden boşaltmak mümkün değildir"
+
+#: ../xfburn/xfburn-device-box.c:595
+msgid "DVD+RW does not need blanking"
+msgstr "DVD+RW'nin boşaltılmaya ihtiyacı yoktur "
+
+#: ../xfburn/xfburn-device-box.c:603
+msgid "Inserted disc is already blank"
+msgstr "Yerleştirdiğiniz disk zaten boş"
+
+#: ../xfburn/xfburn-device-box.c:639
+msgid "Auto"
+msgstr "Otomatik"
+
+#: ../xfburn/xfburn-device-list.c:204 ../xfburn/xfburn-device-list.c:205
+msgid "Number of burners in the system"
+msgstr "Sistemde bulunan yazıcı sayısı"
+
+#: ../xfburn/xfburn-device-list.c:207
+msgid "Number of drives in the system"
+msgstr "Sistemde bulunan sürücü sayısı"
+
+#: ../xfburn/xfburn-device-list.c:208
+msgid "Number of drives in the system (readers and writers)"
+msgstr "Sistemdeki sürücü sayısı (okuyucu ve yazıcılar)"
+
+#: ../xfburn/xfburn-device-list.c:210 ../xfburn/xfburn-device-list.c:211
+msgid "List of devices"
+msgstr "Aygıt listesi"
+
+#: ../xfburn/xfburn-device-list.c:213 ../xfburn/xfburn-device-list.c:214
+msgid "Currently selected device"
+msgstr "Seçilen aygıt"
+
+#. globals
+#: ../xfburn/xfburn-directory-browser.c:52
+msgid "Folder"
+msgstr "Dizin"
+
+#: ../xfburn/xfburn-directory-browser.c:100
+msgid "File"
+msgstr "Dosya"
+
+#: ../xfburn/xfburn-directory-browser.c:115
+msgid "Type"
+msgstr "Tür"
+
+#: ../xfburn/xfburn-fs-browser.c:96 ../xfburn/xfburn-fs-browser.c:305
+msgid "Filesystem"
+msgstr "Dosya sistemi"
+
+#. load the user's home dir
+#: ../xfburn/xfburn-fs-browser.c:284
+#, c-format
+msgid "%s's home"
+msgstr "%s kullanıcısının ev dizini"
+
+#: ../xfburn/xfburn-udev-manager.c:495
+#, c-format
+msgid "Failed to unmount '%s'. Drive cannot be used for burning."
+msgstr "'%s' ayrılması başarısız oldu. Bu sürücü yazma için kullanılamaz."
+
+#. || G_OPTION_FLAG_FILENAME
+#: ../xfburn/xfburn-main.c:74
+msgid "Open the burn image dialog, optionally followed by the image filename"
+msgstr "Kalıp yakma iletişim kutusunu aç, isteğe bağlı olarak kalıp dosya adı"
+
+#: ../xfburn/xfburn-main.c:76
+msgid "Open the blank disc dialog"
+msgstr "Boş disk iletişim kutusunu aç"
+
+#: ../xfburn/xfburn-main.c:78
+msgid ""
+"Start a data composition, optionally followed by files/directories to be "
+"added to the composition"
+msgstr "İsteğe bağlı olarak derlemeye eklenecek dosyalar/dizinler tarafından takip edilen bir veri derlemesi başlatın"
+
+#: ../xfburn/xfburn-main.c:80
+msgid ""
+"Start an audio composition, optionally followed by files/directories to be "
+"added to the composition"
+msgstr "İsteğe bağlı olarak derlemeye eklenecek dosyalar/dizinler izleyen bir ses derlemesi başlatın"
+
+#: ../xfburn/xfburn-main.c:82
+msgid ""
+"Select the transcoder, run with --transcoder=list to see the available ones"
+msgstr "Dönüştürücüyü seçin, mevcut olanları görmek için --transcoder=list ile çalıştırın"
+
+#: ../xfburn/xfburn-main.c:84
+msgid ""
+"Start the file browser in the specified directory, or the current directory "
+"if none is specified (the default is to start in your home directory)"
+msgstr "Dosya tarayıcısını belirtilen dizinde veya geçerli dizini belirtilmemişse başlatın (varsayılan giriş dizininizde başlar)"
+
+#: ../xfburn/xfburn-main.c:86
+msgid "Display program version and exit"
+msgstr "Program sürümünü göster ve çık"
+
+#: ../xfburn/xfburn-main.c:88
+msgid ""
+"Show main program even when other action is specified on the command line."
+msgstr "Komut satırında başka bir eylem belirtilmiş olsa bile ana programı göster."
+
+#: ../xfburn/xfburn-main.c:202 ../xfburn.desktop.in.h:1
+msgid "Xfburn"
+msgstr "Xfburn"
+
+#: ../xfburn/xfburn-main.c:211
+#, c-format
+msgid ""
+"%s: %s\n"
+"Try %s --help to see a full list of available command line options.\n"
+msgstr "%s: %s\nKomut satırı seçenekleri için %s --help ile yardım alabilirsiniz.\n"
+
+#: ../xfburn/xfburn-main.c:220
+msgid "Unable to initialize the burning backend."
+msgstr "Yazma altyapısı çalıştırılamadı."
+
+#: ../xfburn/xfburn-main.c:294
+msgid "No burners are currently available"
+msgstr "Mevcut bir yazıcı bulunamadı"
+
+#: ../xfburn/xfburn-main.c:296
+msgid ""
+"Possibly the disc(s) are in use, and cannot get accessed.\n"
+"\n"
+"Please unmount and restart the application.\n"
+"\n"
+"If no disc is in the drive, check that you have read and write access to the drive with the current user."
+msgstr "Muhtemelen disk(ler) kullanımda ve erişilemiyor \n\nLütfen diski ayırıp uygulamayı tekrar başlatın.\n\nEğer bağlı bir disk yok ise, kullanıcınızın yazma ve okuma iznine sahip olduğundan emin olmalısınız."
+
+#: ../xfburn/xfburn-main.c:330
+#, c-format
+msgid ""
+"Failed to initialize %s transcoder: %s\n"
+"\t(falling back to basic implementation)"
+msgstr "%s taşıyıcısı başlatılamadı: %s\n\t(temel uyarlamaya geri dönülüyor)"
+
+#: ../xfburn/xfburn-main.c:373
+#, c-format
+msgid "Image file '%s' does not exist."
+msgstr "'%s' kalıp dosyası bulunmamaktadır."
+
+#: ../xfburn/xfburn-main-window.c:310
+msgid "New data composition"
+msgstr "Yeni veri derlemesi"
+
+#: ../xfburn/xfburn-main-window.c:313
+msgid "New audio composition"
+msgstr "Yeni müzik derlemesi"
+
+#: ../xfburn/xfburn-main-window.c:318 ../xfburn.ui.h:9
+msgid "Blank CD-RW"
+msgstr "CD-RW'yi Boşalt"
+
+#: ../xfburn/xfburn-main-window.c:321 ../xfburn.ui.h:10
+msgid "Burn Image"
+msgstr "Kalıp Yazdır"
+
+#: ../xfburn/xfburn-main-window.c:326 ../xfburn.ui.h:12
+msgid "Refresh"
+msgstr "Yenile"
+
+#: ../xfburn/xfburn-main-window.c:326
+msgid "Refresh file list"
+msgstr "Dosya listesini yenile"
+
+#: ../xfburn/xfburn-main-window.c:573
+msgid "Another cd burning GUI"
+msgstr "CD Yazma Uygulaması"
+
+#: ../xfburn/xfburn-notebook-tab.c:81
+msgid "Label"
+msgstr "Etiket"
+
+#: ../xfburn/xfburn-notebook-tab.c:81
+msgid "The text of the label"
+msgstr "Etiket yazısı"
+
+#: ../xfburn/xfburn-notebook-tab.c:84
+msgid "Show close button"
+msgstr "Kapatma düğmesini göster"
+
+#: ../xfburn/xfburn-notebook-tab.c:84
+msgid "Determine whether the close button is visible"
+msgstr "Kapatma düğmesinin görünür olup olmayacağını belirtmenizi sağlar"
+
+#: ../xfburn/xfburn-perform-burn.c:103 ../xfburn/xfburn-perform-burn.c:452
+msgid "Formatting..."
+msgstr "Biçimlendiriliyor..."
+
+#: ../xfburn/xfburn-perform-burn.c:270
+msgid ""
+"Cannot append data to multisession disc in this write mode (use TAO "
+"instead)."
+msgstr "Bu yazma kipinde çokluoturum diskine veri ilave edilemez (bunun yerine TAO kullanın)."
+
+#: ../xfburn/xfburn-perform-burn.c:274
+msgid "Closed disc with data detected, a blank or appendable disc is needed."
+msgstr "Veri yazılmış bir disk bulundu. Boş veya uygun bir disk yerleştiriniz."
+
+#: ../xfburn/xfburn-perform-burn.c:276
+msgid "No disc detected in drive."
+msgstr "Sürücüde disk bulunmamaktadır."
+
+#: ../xfburn/xfburn-perform-burn.c:279
+msgid "Cannot recognize the state of the drive and disc."
+msgstr "Sürücünün ve diskin durumu tanımlanamadı."
+
+#: ../xfburn/xfburn-perform-burn.c:286
+msgid "Formatting failed."
+msgstr "Biçimlendirme başarısız."
+
+#: ../xfburn/xfburn-perform-burn.c:304
+msgid "There is not enough space available on the inserted disc."
+msgstr "Seçilen kalıp yerleştirilen diske sığmamaktadır."
+
+#: ../xfburn/xfburn-perform-burn.c:349
+#, c-format
+msgid "Burning track %2d/%d..."
+msgstr "%2d/%d yazılıyor..."
+
+#: ../xfburn/xfburn-perform-burn.c:353 ../xfburn/xfburn-perform-burn.c:417
+msgid "Burning composition..."
+msgstr "Derleme yazılıyor..."
+
+#: ../xfburn/xfburn-perform-burn.c:386
+msgid "standby"
+msgstr "bekleme kipi"
+
+#: ../xfburn/xfburn-perform-burn.c:394
+msgid "ending"
+msgstr "sonlanıyor"
+
+#: ../xfburn/xfburn-perform-burn.c:397
+msgid "failing"
+msgstr "hata veriyor"
+
+#: ../xfburn/xfburn-perform-burn.c:400
+msgid "unused"
+msgstr "kullanılmamış"
+
+#: ../xfburn/xfburn-perform-burn.c:403
+msgid "abandoned"
+msgstr "eskimiş"
+
+#: ../xfburn/xfburn-perform-burn.c:406
+msgid "ended"
+msgstr "sonlanmış"
+
+#: ../xfburn/xfburn-perform-burn.c:409
+msgid "aborted"
+msgstr "durdurulmuş"
+
+#: ../xfburn/xfburn-perform-burn.c:412
+msgid "no info"
+msgstr "bilgi yok"
+
+#: ../xfburn/xfburn-perform-burn.c:422
+msgid "Writing Lead-In..."
+msgstr "Lead-In Yazılıyor..."
+
+#: ../xfburn/xfburn-perform-burn.c:428
+msgid "Writing Lead-Out..."
+msgstr "Lead-Out Yazılıyor..."
+
+#: ../xfburn/xfburn-perform-burn.c:434
+msgid "Writing pregap..."
+msgstr "Pregap yazılıyor..."
+
+#: ../xfburn/xfburn-perform-burn.c:440
+msgid "Closing track..."
+msgstr "Parça kapatılıyor..."
+
+#: ../xfburn/xfburn-perform-burn.c:446
+msgid "Closing session..."
+msgstr "Oturum kapatılıyor..."
+
+#: ../xfburn/xfburn-perform-burn.c:465
+msgid "see console"
+msgstr "konsolu izle"
+
+#: ../xfburn/xfburn-perform-burn.c:493
+msgid "User Aborted"
+msgstr "Kullanıcı Durdurdu"
+
+#: ../xfburn/xfburn-preferences-dialog.c:117
+msgid "Preferences"
+msgstr "Tercihler"
+
+#: ../xfburn/xfburn-preferences-dialog.c:118
+msgid "Tune how Xfburn behaves"
+msgstr "Xfburn'ün nasıl davranacağını ayarla"
+
+#: ../xfburn/xfburn-preferences-dialog.c:163
+#: ../xfburn/xfburn-preferences-dialog.c:167
+msgid "Temporary directory"
+msgstr "Geçici dizin"
+
+#: ../xfburn/xfburn-preferences-dialog.c:171
+msgid "_Clean temporary directory on exit"
+msgstr "Çıkışta geçici dizini _temizle"
+
+#: ../xfburn/xfburn-preferences-dialog.c:178
+msgid "File browser"
+msgstr "Dosya yöneticisi"
+
+#: ../xfburn/xfburn-preferences-dialog.c:182
+msgid "Show _hidden files"
+msgstr "Gizli dosyaları g_öster"
+
+#: ../xfburn/xfburn-preferences-dialog.c:187
+msgid "Show human_readable filesizes"
+msgstr "Anlamlı dosya boyutları göster"
+
+#: ../xfburn/xfburn-preferences-dialog.c:197
+#: ../xfburn/xfburn-preferences-dialog.c:208
+msgid "General"
+msgstr "Genel"
+
+#: ../xfburn/xfburn-preferences-dialog.c:212
+#: ../xfburn/xfburn-preferences-dialog.c:295
+msgid "Devices"
+msgstr "Aygıtlar"
+
+#: ../xfburn/xfburn-preferences-dialog.c:221
+msgid "Detected devices"
+msgstr "Kullanılabilir aygıtlar"
+
+#: ../xfburn/xfburn-preferences-dialog.c:243
+msgid "Name"
+msgstr "İsim"
+
+#: ../xfburn/xfburn-preferences-dialog.c:256
+msgid "Revision"
+msgstr "Revizyon"
+
+#: ../xfburn/xfburn-preferences-dialog.c:258
+msgid "Node"
+msgstr "Düğüm"
+
+#: ../xfburn/xfburn-preferences-dialog.c:260
+msgid "Write CD-R"
+msgstr "CD-R Yaz"
+
+#: ../xfburn/xfburn-preferences-dialog.c:262
+msgid "Write CD-RW"
+msgstr "CD-RW Yaz"
+
+#: ../xfburn/xfburn-preferences-dialog.c:265
+msgid "Write DVD-R"
+msgstr "DVD-R Yaz"
+
+#: ../xfburn/xfburn-preferences-dialog.c:268
+msgid "Write DVD-RAM"
+msgstr "DVD-RAM Yaz"
+
+#: ../xfburn/xfburn-preferences-dialog.c:271
+msgid "Write Blu-ray"
+msgstr "Blu-ray Yaz"
+
+#: ../xfburn/xfburn-preferences-dialog.c:279
+msgid "Sc_an for devices"
+msgstr "Aygıtları _tara"
+
+#: ../xfburn/xfburn-preferences-dialog.c:306
+msgid "Show warning on _empty speed list"
+msgstr "Hız list_esi boş olduğunda uyarı göster"
+
+#: ../xfburn/xfburn-preferences-dialog.c:315
+msgid "FIFO buffer size (in kb)"
+msgstr "FIFO tampon boyutu (kb)"
+
+#: ../xfburn/xfburn-preferences-dialog.c:334
+msgid "_Close"
+msgstr "_Kapat"
+
+#: ../xfburn/xfburn-preferences-dialog.c:469
+msgid "Changing this setting only takes full effect after a program restart."
+msgstr "Bu ayarı değiştirdikten sonra uygulamayı tekrar başlatmalısınız."
+
+#. label
+#: ../xfburn/xfburn-progress-dialog.c:168
+#: ../xfburn/xfburn-progress-dialog.c:172
+#: ../xfburn/xfburn-progress-dialog.c:527
+msgid "Initializing..."
+msgstr "Başlatılıyor..."
+
+#: ../xfburn/xfburn-progress-dialog.c:187
+msgid "Estimated writing speed:"
+msgstr "Tahmini yazma hızı:"
+
+#: ../xfburn/xfburn-progress-dialog.c:190
+#: ../xfburn/xfburn-progress-dialog.c:206
+#: ../xfburn/xfburn-progress-dialog.c:215
+#: ../xfburn/xfburn-progress-dialog.c:306
+#: ../xfburn/xfburn-progress-dialog.c:450
+#: ../xfburn/xfburn-progress-dialog.c:474
+#: ../xfburn/xfburn-progress-dialog.c:498
+msgid "unknown"
+msgstr "bilinmiyor"
+
+#: ../xfburn/xfburn-progress-dialog.c:201
+msgid "FIFO buffer:"
+msgstr "FIFO tamponu:"
+
+#: ../xfburn/xfburn-progress-dialog.c:210
+msgid "Device buffer:"
+msgstr "Aygıt tamponu:"
+
+#. action buttons
+#: ../xfburn/xfburn-progress-dialog.c:220
+msgid "_Stop"
+msgstr "_Dur"
+
+#: ../xfburn/xfburn-progress-dialog.c:227
+msgid "Close"
+msgstr "Kapat"
+
+#: ../xfburn/xfburn-progress-dialog.c:348
+msgid "Are you sure you want to abort?"
+msgstr "Durdurmak istediğinizden emin misiniz?"
+
+#: ../xfburn/xfburn-progress-dialog.c:476
+#, c-format
+msgid "Min. fill was %2d%%"
+msgstr "Asg. doluydu %2d%%"
+
+#: ../xfburn/xfburn-progress-dialog.c:544
+msgid "Aborted"
+msgstr "Durdurulmuş"
+
+#: ../xfburn/xfburn-progress-dialog.c:547
+msgid "Formatted."
+msgstr "Biçimlendirildi."
+
+#: ../xfburn/xfburn-progress-dialog.c:556
+msgid "Failed"
+msgstr "Başarısız"
+
+#: ../xfburn/xfburn-progress-dialog.c:559
+msgid "Cancelled"
+msgstr "İptal edildi"
+
+#: ../xfburn/xfburn-progress-dialog.c:562
+msgid "Completed"
+msgstr "Tamamlandı"
+
+#: ../xfburn/xfburn-progress-dialog.c:600
+msgid "Aborting..."
+msgstr "Durduruluyor..."
+
+#: ../xfburn/xfburn-utils.c:131
+msgid "Select command"
+msgstr "Komut seç"
+
+#: ../xfburn/xfburn-welcome-tab.c:99
+msgid "Welcome to Xfburn!"
+msgstr "Xfburn'e Hoşgeldiniz!"
+
+#. buttons
+#: ../xfburn/xfburn-welcome-tab.c:118
+msgid "<big>Burn _Image</big>"
+msgstr "<big>Kalı_p Yazdır</big>"
+
+#: ../xfburn/xfburn-welcome-tab.c:118
+msgid "Burn a prepared compilation, i.e. an .ISO file"
+msgstr "Disk kalıbı yazdırabilirsiniz, örn. ISO dosyası"
+
+#: ../xfburn/xfburn-welcome-tab.c:123
+msgid "<big>New _Data Composition</big>"
+msgstr "<big>Yeni Veri _Derlemesi</big>"
+
+#: ../xfburn/xfburn-welcome-tab.c:123
+msgid "Create a new data disc with the files of your choosing"
+msgstr "Seçilen dosyalardan veri diski oluşturabilirsiniz"
+
+#: ../xfburn/xfburn-welcome-tab.c:128
+msgid "<big>_Blank Disc</big>"
+msgstr "<big>Disk _Boşalt</big>"
+
+#: ../xfburn/xfburn-welcome-tab.c:128
+msgid "Prepare the rewriteable disc for a new burn"
+msgstr "Yeniden yazılabilir diskinizi yazdırma için hazırlayabilirsiniz"
+
+#: ../xfburn/xfburn-welcome-tab.c:133
+msgid "<big>_Audio CD</big>"
+msgstr "<big>_Müzik CD'si</big>"
+
+#: ../xfburn/xfburn-welcome-tab.c:133
+msgid "Audio CD playable in regular stereos"
+msgstr "Müzik CD'si oluşturabilirsiniz"
+
+#: ../xfburn/xfburn-audio-composition.c:222
+#: ../xfburn/xfburn-audio-composition.c:371
+msgid "What files can get burned to an audio CD?"
+msgstr "Müzik CD'sine hangi dosyalar yazılacak?"
+
+#: ../xfburn/xfburn-audio-composition.c:226 ../xfburn-popup-menus.ui.h:4
+msgid "Rename Artist"
+msgstr "Sanatçıyı Yeniden Adlandır"
+
+#: ../xfburn/xfburn-audio-composition.c:226
+msgid "Rename the artist of the selected file"
+msgstr "Seçilen dosyadaki sanatçıyı tekrar isimlendirmeniz için"
+
+#: ../xfburn/xfburn-audio-composition.c:228 ../xfburn-popup-menus.ui.h:5
+msgid "Rename Title"
+msgstr "Yeniden Adlandır"
+
+#: ../xfburn/xfburn-audio-composition.c:228
+msgid "Rename the title of the selected file"
+msgstr "Seçtiğiniz dosyayı yeniden adlandırmanız için"
+
+#. Note to translators: you can probably keep this as gstreamer,
+#. * unless you have a good reason to call it by another name that
+#. * the user would understand better
+#: ../xfburn/xfburn-audio-composition.c:371
+#: ../xfburn/xfburn-transcoder-gst.c:579
+msgid "gstreamer"
+msgstr "gstreamer"
+
+#: ../xfburn/xfburn-audio-composition.c:402
+msgid "Pos"
+msgstr "Sıra"
+
+#: ../xfburn/xfburn-audio-composition.c:404
+msgid "Length"
+msgstr "Süre"
+
+#: ../xfburn/xfburn-audio-composition.c:410
+msgid "Artist"
+msgstr "Sanatçı"
+
+#: ../xfburn/xfburn-audio-composition.c:423
+msgid "Title"
+msgstr "Başlık"
+
+#: ../xfburn/xfburn-audio-composition.c:434
+msgid "Filename"
+msgstr "Dosya adı"
+
+#: ../xfburn/xfburn-audio-composition.c:581
+msgid "Cannot burn audio onto a DVD."
+msgstr "Ses dosyaları DVD'ye yazılamadı."
+
+#: ../xfburn/xfburn-audio-composition.c:1259
+msgid "You can only have a maximum of 99 tracks."
+msgstr "En fazla 99 şarkı alabilir."
+
+#: ../xfburn/xfburn-burn-audio-cd-composition-dialog.c:279
+msgid "A problem with the burn backend occurred."
+msgstr "Yazma altyapısında bir hata meydana geldi."
+
+#: ../xfburn/xfburn-disc-usage.c:161
+msgid "Proceed to Burn"
+msgstr "Yazmaya Başla"
+
+#: ../xfburn/xfburn-disc-usage.c:201
+msgid "You are trying to burn more onto the disc than it can hold."
+msgstr "Bu diskin barındırabileceğinden daha fazla veri yazmaya çalışıyorsunuz."
+
+#. globals
+#: ../xfburn/xfburn-transcoder-basic.c:69
+#: ../xfburn/xfburn-transcoder-gst.c:145
+msgid "An error occurred while setting the burning backend up"
+msgstr "Arkaplanda yazma yapılırken bir hata oluştu"
+
+#: ../xfburn/xfburn-transcoder-basic.c:129
+msgid "basic"
+msgstr "temel"
+
+#: ../xfburn/xfburn-transcoder-basic.c:135
+msgid ""
+"The basic transcoder is built in,\n"
+"and does not require any library.\n"
+"But it can only handle uncompressed\n"
+".wav files.\n"
+"If you would like to create audio\n"
+"compositions from different types of\n"
+"audio files, please compile with\n"
+"gstreamer support."
+msgstr "Temel taşıyıcı tümleşiktir,\nve hiç bir kitaplığa gereksinim duymaz.\nFakat sadece sıkıştırılmamış olan\n.wav dosyalarını destekler.\nEğer farklı türde müzik derlemesi\noluşturmak istiyorsanız lütfen uygulamayı\ngstreamer desteği ile derleyiniz. "
+
+#: ../xfburn/xfburn-transcoder-basic.c:159
+#, c-format
+msgid "File %s does not have a .wav extension"
+msgstr "%s dosyası .wav uzantısına sahip değil"
+
+#: ../xfburn/xfburn-transcoder-basic.c:164
+#, c-format
+msgid "File %s does not contain uncompressed PCM wave audio"
+msgstr "%s dosyası sıkıştırılmamış bir PCM sesi barındırmamaktadır"
+
+#: ../xfburn/xfburn-transcoder-basic.c:170
+#, c-format
+msgid "Could not stat %s: %s"
+msgstr "%s konumlandırılamadı: %s"
+
+#: ../xfburn/xfburn-transcoder-basic.c:202
+#, c-format
+msgid "Could not open %s."
+msgstr "%s açılamadı."
+
+#: ../xfburn/xfburn-transcoder-basic.c:281
+#, c-format
+msgid "Could not open %s: %s"
+msgstr "%s açılamadı: %s"
+
+#: ../xfburn/xfburn-transcoder-gst.c:144
+msgid "An error occurred setting gstreamer up for transcoding"
+msgstr "Kodlama için gstreamer ayarlanırken bir hata oluştu"
+
+#: ../xfburn/xfburn-transcoder-gst.c:146
+#, c-format
+msgid ""
+"%s is missing.\n"
+"\n"
+"You do not have a decoder installed to handle this file.\n"
+"Probably you need to look at the gst-plugins-* packages\n"
+"for the necessary plugins.\n"
+msgstr "%s kayıp.\n\nBu dosyanın kontrolü için gerekli çözücü bulunmamaktadır.\nMuhtemelen gst-plugins-* paketlerine\nihtiyaç duyabilirsiniz.\n"
+
+#: ../xfburn/xfburn-transcoder-gst.c:542
+msgid "File content has a decoder but is not audio."
+msgstr "Dosya içeriğinin kod çözücüsü var, ancak ses değil."
+
+#: ../xfburn/xfburn-transcoder-gst.c:585
+msgid ""
+"The gstreamer transcoder uses the gstreamer\n"
+"library for creating audio compositions.\n"
+"\n"
+"Essentially all audio files should be supported\n"
+"given that the correct plugins are installed.\n"
+"If an audio file is not recognized, make sure\n"
+"that you have the 'good','bad', and 'ugly'\n"
+"gstreamer plugin packages installed."
+msgstr "gstreamer taşıyıcısı gstreamer kütüphanesini\nkullanarak müzik derlemesi oluşturur.\n\nEğer doğru eklentiler kurulu ise bütün\nmüzik dosyaları destekleniyor olmalıdır.\nEğer müzik dosyası tanınmıyor ise, mutlaka\n'good','bad' ve 'ugly' eklentilerinin kurulu\nolduğundan emin olmalısınız."
+
+#: ../xfburn/xfburn-transcoder-gst.c:627
+msgid "No information available on which plugin is required."
+msgstr "Hangi eklentinin gerekli olduğuna dair bilgi yok."
+
+#: ../xfburn/xfburn-transcoder-gst.c:629
+msgid "Required plugins: "
+msgstr "Gerekli eklentiler:"
+
+#: ../xfburn/xfburn-transcoder-gst.c:662 ../xfburn/xfburn-transcoder-gst.c:692
+#, c-format
+msgid "An error occurred while identifying '%s' with gstreamer"
+msgstr "Gstreamer kullanarak '%s' belirlenirken bir hata oluştu"
+
+#: ../xfburn/xfburn-transcoder-gst.c:679
+msgid "A plugin"
+msgstr "Bir eklenti"
+
+#: ../xfburn/xfburn-transcoder-gst.c:814
+#, c-format
+msgid "Gstreamer did not want to start transcoding (timed out)"
+msgstr "Gstreamer kod çevrimini başlatamadı (zaman aşımı)"
+
+#: ../xfburn/xfburn-transcoder-gst.c:849
+#, c-format
+msgid "Failed to change songs while transcoding"
+msgstr "Kod çevrimi yapılırken şarkı değiştirilemedi"
+
+#: ../xfburn/xfburn-transcoder.c:103 ../xfburn/xfburn-transcoder.c:113
+msgid "none"
+msgstr "hiçbiri"
+
+#: ../xfburn/xfburn-transcoder.c:124 ../xfburn/xfburn-transcoder.c:151
+#: ../xfburn/xfburn-transcoder.c:163
+#, c-format
+msgid "not implemented"
+msgstr "henüz tamamlanmamış"
+
+#: ../xfburn/xfburn-device.c:255 ../xfburn/xfburn-device.c:256
+msgid "Display name"
+msgstr "Görünen isim"
+
+#: ../xfburn/xfburn-device.c:258 ../xfburn/xfburn-device.c:259
+msgid "Device address"
+msgstr "Sürücü adresi"
+
+#: ../xfburn/xfburn-device.c:261
+msgid "Device revision"
+msgstr "Cihaz revizyonu"
+
+#: ../xfburn/xfburn-device.c:262
+msgid "Device Revision"
+msgstr "Cihaz Revizyonu"
+
+#: ../xfburn/xfburn-device.c:264 ../xfburn/xfburn-device.c:265
+msgid "Burn speeds supported by the device"
+msgstr "Aygıt tarafından desteklenen yazma hızları"
+
+#: ../xfburn/xfburn-device.c:267 ../xfburn/xfburn-device.c:268
+msgid "Disc status"
+msgstr "Disk durumu"
+
+#: ../xfburn/xfburn-device.c:270 ../xfburn/xfburn-device.c:271
+msgid "Profile no. as reported by libburn"
+msgstr "libburn tarafından bildirilen profil numarası"
+
+#: ../xfburn/xfburn-device.c:273 ../xfburn/xfburn-device.c:274
+msgid "Profile name as reported by libburn"
+msgstr "libburn tarafından bildirilen profil ismi"
+
+#: ../xfburn/xfburn-device.c:276 ../xfburn/xfburn-device.c:277
+msgid "Is the disc erasable"
+msgstr "Disk yazılabilir mi?"
+
+#: ../xfburn/xfburn-device.c:279 ../xfburn/xfburn-device.c:280
+msgid "Can burn CDR"
+msgstr "CDR yazılabilir"
+
+#: ../xfburn/xfburn-device.c:282 ../xfburn/xfburn-device.c:283
+msgid "Can burn CDRW"
+msgstr "CDRW yazılabilir"
+
+#: ../xfburn/xfburn-device.c:285 ../xfburn/xfburn-device.c:286
+msgid "Can burn DVDR"
+msgstr "DVDR yazılabilir"
+
+#: ../xfburn/xfburn-device.c:288 ../xfburn/xfburn-device.c:289
+msgid "Can burn DVDPLUSR"
+msgstr "DVDPLUSR yazılabilir"
+
+#: ../xfburn/xfburn-device.c:291 ../xfburn/xfburn-device.c:292
+msgid "Can burn DVDRAM"
+msgstr "DVDRAM yazılabilir"
+
+#: ../xfburn/xfburn-device.c:294 ../xfburn/xfburn-device.c:295
+msgid "Can burn Blu-ray"
+msgstr "Blu-ray yazılabilir"
+
+#: ../xfburn/xfburn-device.c:297 ../xfburn/xfburn-device.c:298
+msgid "libburn TAO block types"
+msgstr "libburn TAO blok tipleri"
+
+#: ../xfburn/xfburn-device.c:300 ../xfburn/xfburn-device.c:301
+msgid "libburn SAO block types"
+msgstr "libburn SAO blok tipleri"
+
+#: ../xfburn/xfburn-device.c:303 ../xfburn/xfburn-device.c:304
+msgid "libburn RAW block types"
+msgstr "libburn RAW blok tipleri"
+
+#: ../xfburn/xfburn-device.c:306 ../xfburn/xfburn-device.c:307
+msgid "libburn PACKET block types"
+msgstr "libburn PACKET blok tipleri"
+
+#: ../xfburn.ui.h:1
+msgid "_Files"
+msgstr "_Dosyalar"
+
+#: ../xfburn.ui.h:2
+msgid "New _data composition"
+msgstr "Yeni _veri derlemesi "
+
+#: ../xfburn.ui.h:3
+msgid "New _audio composition"
+msgstr "Yeni _ses derlemesi "
+
+#: ../xfburn.ui.h:4
+msgid "_Close composition"
+msgstr "_Derlemeyi kapat"
+
+#: ../xfburn.ui.h:5
+msgid "_Quit"
+msgstr "_Çık"
+
+#: ../xfburn.ui.h:6
+msgid "_Edit"
+msgstr "_Düzenle"
+
+#: ../xfburn.ui.h:7
+msgid "Prefere_nce"
+msgstr "_Seçenekler"
+
+#: ../xfburn.ui.h:8
+msgid "_Action"
+msgstr "_Eylem"
+
+#: ../xfburn.ui.h:11
+msgid "_View"
+msgstr "_Görünüm"
+
+#: ../xfburn.ui.h:13
+msgid "Show Toolbars"
+msgstr "Araç Çubuğunu Göster"
+
+#: ../xfburn.ui.h:14
+msgid "Show Filebrowser"
+msgstr "Dosya Tarayıcıyı Göster"
+
+#: ../xfburn.ui.h:15
+msgid "_Help"
+msgstr "_Yardım"
+
+#: ../xfburn.ui.h:16
+msgid "About"
+msgstr "Hakkında"
+
+#: ../xfburn-popup-menus.ui.h:2
+msgid "Rename"
+msgstr "Yeniden Adlandır"
+
+#: ../desktop-integration/thunar-sendto-xfburn.desktop.in.h:1
+msgid "Data Composition"
+msgstr "Veri Derlemesi"
+
+#: ../xfburn.desktop.in.h:2
+msgid "Disk Burning"
+msgstr "Disk Yazılıyor"
+
+#: ../xfburn.desktop.in.h:3
+msgid "CD and DVD burning application"
+msgstr "CD ve DVD yazma uygulaması"
+
+#: ../xfburn.desktop.in.h:4
+msgid "Burn Image (xfburn)"
+msgstr "Kalıbı yazdır (xfburn)"
+
+#: ../org.xfce.xfburn.appdata.xml.in.h:1
+msgid ""
+"Xfburn is a simple CD/DVD burning tool based on libburnia libraries. It can "
+"blank CD/DVD(-RW)s, burn and create iso images, audio CDs, as well as burn "
+"personal compositions of data to either CD or DVD. It is stable and under "
+"ongoing development."
+msgstr "Xfburn, libburnia kütüphanelerine dayanan basit bir CD/DVD yazma aracıdır. CD/DVD'yi (-RW) boşaltabilir, yakabilir ve ISO görüntüleri, ses CD'leri oluşturabilir, ayrıca kişisel bileşimleri CD ya da DVD'ye yazabilir. Karalı ve geliştirilmekte olan bir üründür."
